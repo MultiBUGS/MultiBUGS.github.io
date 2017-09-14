@@ -32,7 +32,7 @@
 <p>
 It builds on the existing algorithms and tools in <a href="http://www.openbugs.net/w/FrontPage">OpenBUGS</a>, and so is applicable to the broad range of statistical models that can be fitted using BUGS-language software, but automatically parallelises the MCMC algorithm to dramatically speed up computation.</p>
 
-<a class="button button-primary" href="#">Download OpenBUGS 0.9</a>
+<a class="button button-primary" href="https://github.com/MultiBUGS/MultiBUGS/releases/download/v0.9/MultiBUGS.0.9.zip">Download OpenBUGS 0.9</a>
 
 <h5>Installation</h5>
 <p>
@@ -41,13 +41,26 @@ MultiBUGS currently works only on Windows. (We hope to port it to Linux in the n
 <ol>
 <li>Download and install <a href="https://msdn.microsoft.com/en-us/library/bb524831(v=vs.85).aspx">Microsoft MPI (MS-MPI)</a>. This framework allows running parallel applications on the Windows platform.</li>
 
-<li>Download MultiBUGS using the link above, and unzip this to, for example, <span style="background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; padding: 0.4em">C:\</span>
+<li><a href="https://github.com/MultiBUGS/MultiBUGS/releases/download/v0.9/MultiBUGS.0.9.zip">Download MultiBUGS</a>, and unzip this to, for example, <span style="background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; padding: 0.4em">C:\</span>
+</li>
+
+<li> Open <span style="background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; padding: 0.4em">C:\MultiBUGS\MultiBUGS.exe</span>
 </li>
 </ol>
+
+<h5>Getting started</h5>
+<p>
+The steps for running an analysis in MultiBUGS are identical to OpenBUGS, except that we must specify how many cores to distribute computation across and initialise the parallelisation.
+This is specified using the 'distribute' button in the Specification Tool.
+</p>
+<p>
+See the existing <a href="http://www.openbugs.net/w/Documentation">OpenBUGS documentation</a> for general information about BUGS.
+</p>
 
 <h5>Known Issues</h5>
 <p>
 We maintain a list of known issues on <a href="https://github.com/MultiBUGS/MultiBUGS/wiki">GitHub Wiki</a>.
+Please report issues via <a href="https://github.com/MultiBUGS/MultiBUGS/issues">GitHub Issues</a>.
 </p>
 
 <h5>Source code</h5>
