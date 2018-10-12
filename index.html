@@ -27,11 +27,21 @@
 
 <div class="eight columns" style="margin-top: 10%">
 <h4>MultiBUGS</h4>
+<h6>A parallel implementation of the BUGS modelling framework for faster Bayesian inference</h6>
 <p>
-MultiBUGS is a software package for performing Bayesian inference.
+  MultiBUGS is a software package for performing Bayesian inference.
+  It builds on the existing algorithms and tools in <a href="http://www.openbugs.net/w/FrontPage">OpenBUGS</a> and <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/">WinBUGS</a>, and so is applicable to the broad range of statistical models that can be fitted using BUGS-language software, but <strong>automatically parallelises the MCMC algorithm</strong> to dramatically speed up computation.
 </p>
 <p>
-It builds on the existing algorithms and tools in <a href="http://www.openbugs.net/w/FrontPage">OpenBUGS</a> and <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/">WinBUGS</a>, and so is applicable to the broad range of statistical models that can be fitted using BUGS-language software, but <strong>automatically parallelises the MCMC algorithm</strong> to dramatically speed up computation.
+  MultiBUGS can run independent chains in parallel (e.g. for MCMC convergence analysis), and also parallelise computation required within each independent chain:
+</p>
+<ol>
+<li>evaluation of the product-form likelihoods (e.g. for &lsquo;fixed effect&rsquo; parameters)
+<li>sampling of conditionally-independent parameters (e.g. &lsquo;random effects&rsquo; parameters)
+</ol>
+<p>
+  For example, in an hierarchical regression model including 425,112 observations and 20,426 random effects, we found that <strong>OpenBUGS took 32 hours</strong>, whereas <strong>MultiBUGS took only 28 minutes using 48 cores</strong>.
+  See <a href="https://arxiv.org/abs/1704.03216">Goudie <em>et al.</em> (2017)</a> for details.
 </p>
 
 <h5>Installation</h5>
