@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Distributions</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse show" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li>Distributions</li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Reliability distributions</h4><h5 id="BirnSaunders">Birnbaum-Saunders</h5>The Birnbaum-Saunders distribution <a href="/examples/latest/reliability/BS_Ex.html"></a><a href="/examples/latest/reliability/BS_Ex.html">[example]</a> is defined by the pdf<br/><br/>   <img alt="[distributions1]" src="distributions1.bmp"/><img alt="[distributions2]" src="distributions2.bmp"/><br/><br/>where <code>alpha</code> and <code>beta</code> are shape parameters, Birnabaum and Saunders (1969). In the BUGS language it is used as<br/><br/>         <code>x ~ dbs(alpha, beta)</code><br/><br/><br/><h5 id="BurrX">Burr X</h5><br/>The Burr X distribution <a href="/examples/latest/reliability/BS_Ex.html"></a><a href="/examples/latest/reliability/BS_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions3]" src="distributions3.bmp"/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> is a scale parameter, Surles and Padgett (2005). In the BUGS language it is used as<br/><br/>         <code>x ~ dburrX(alpha, lambda)</code><br/><br/><br/><h5 id="BurrXII">Burr XII</h5><br/>The Burr XII distribution <a href="/examples/latest/reliability/BurrXII_Ex.html"></a><a href="/examples/latest/reliability/BurrXII_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions4]" src="distributions4.bmp"/><br/><br/>where <code>alpha</code> and <code>beta</code> are shape parameters, Klugman et al. (2004). In the BUGS language it is used as<br/><br/>      <code>x ~ dburrXII(alpha, beta)</code><br/><br/><br/><h5 id="ExponentialPower">Exponential Power</h5>The Exponential power distribution <a href="/examples/latest/reliability/ExpPower_Ex.html"></a><a href="/examples/latest/reliability/ExpPower_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions5]" src="distributions5.bmp"/><br/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> a scale parameter, Smith and Bain (1975). In the BUGS language it is used as<br/><br/>      <code>x ~ dexp.power(alpha, lambda)</code><br/><br/><br/><h5 id="ExponentiatedWeibull">Exponentiated Weibull</h5>The Exponentiated Weibul distribution <a href="/examples/latest/reliability/ExpoWeibull_Ex.html"></a><a href="/examples/latest/reliability/ExpoWeibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions6]" src="distributions6.bmp"/><br/>where <code>alpha</code> and <code>theta</code> are shape parameters, Mudholkar and Srivastava (1993). In the BUGS language it is used as<br/>         <br/>         <code>x ~ dexp.weib(alpha, theta)</code><br/><br/><br/><h5 id="ExtendedExponential">Extended Exponential</h5>The Extended Exponential distribution <a href="/examples/latest/reliability/Ext_exponential_Ex.html"></a><a href="/examples/latest/reliability/Ext_exponential_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions7]" src="distributions7.bmp"/><br/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> is a tilt parameter, Marshall and Olkin (1997, 2007). In the BUGS language it is used as<br/><br/>         <code>x ~ dext.exp(alpha, lambda)</code><br/><br/><br/><h5 id="ExtendedWeibull">Extended Weibull</h5>The Extended Weibull distribution <a href="/examples/latest/reliability/Ext_weibull_Ex.html"></a><a href="/examples/latest/reliability/Ext_weibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions8]" src="distributions8.bmp"/><br/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> is a tilt parameter, Marshall and Olkin (1997, 2007). In the BUGS language it is used as<br/><br/>         <code>x ~ dext.weib(alpha, lambda)</code><br/><br/><br/><h5 id="FlexibleWeibull">Flexible Weibull</h5>The Flexible Weibull distribution <a href="/examples/latest/reliability/FlexibleWeibull_Ex.html"></a><a href="/examples/latest/reliability/FlexibleWeibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions9]" src="distributions9.bmp"/><br/>      <br/>where <code>alpha</code> and <code>beta</code> are shape parameters, Bebbington et al. (2007). In the BUGS language it is used as<br/><br/>         <code>x ~ dflex.weib(alpha, beta)</code><br/><br/><br/><h5 id="GeneralizedExponential">Generalized Exponential</h5>The Generalized Exponential distribution <a href="/examples/latest/reliability/GenExponential_Ex.html"></a><a href="/examples/latest/reliability/GenExponential_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions10]" src="distributions10.bmp"/><br/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> is a scale parameter, Gupta and Kundu (1999, 2001). In the BUGS language it is used as<br/><br/>      <code>x ~ dgen.exp(alpha, lambda)</code><br/><br/><br/><h5 id="GeneralizedPowerWeibull">Generalized Power Weibull</h5>The Generalized Power Weibull distribution <a href="/examples/latest/reliability/GPWeibull_Ex.html"></a><a href="/examples/latest/reliability/GPWeibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions11]" src="distributions11.bmp"/><br/><br/>where <code>alpha</code> and <code>theta</code> are shape parameters, Nikulin and Haghighi (2006). In the BUGS language it is used as<br/>      <br/>      <code>x ~ dgp.weib(alpha, theta)</code><br/><br/><br/><h5 id="Gompertz">Gompertz</h5>The Gompertz distribution <a href="/examples/latest/reliability/Gompertz_Ex.html"></a><a href="/examples/latest/reliability/Gompertz_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions12]" src="distributions12.bmp"/><br/><br/>where <code>alpha</code> and <code>theta</code> are shape parameters, Marshall and Olkin (2007). In the BUGS language it is used as<br/><br/>      <code>x ~ dgpz(alpha, theta)</code><br/><br/><br/><h5 id="Gumbel">Gumbel</h5>The Gumbel distribution <a href="/examples/latest/reliability/Gumbel_Ex.html"></a><a href="/examples/latest/reliability/Gumbel_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions13]" src="distributions13.bmp"/><br/><br/>where <code>alpha</code> is a location parameter and <code>tau</code> is a scale parameter, Marshall and Olkin (2007). In the BUGS language it is used as<br/><br/>      <code>x ~ dgumbel(alpha, tau)</code><br/><br/><br/><h5 id="InverseGaussian">Inverse Gaussian</h5>The Inverse Gaussian distribution <a href="/examples/latest/reliability/InvGaussian_Ex.html"></a><a href="/examples/latest/reliability/InvGaussian_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions14]" src="distributions14.bmp"/><br/><br/>where <code>mu</code> is a location parameter and <code>lambda</code> is a scale parameter, Chhikara and Folks (1977). In the BUGS language it is used as<br/><br/>      <code>x ~ dinv.gauss(mu, lambda)</code><br/><br/><br/><h5 id="InverseWeibull">Inverse Weibull</h5>The Inverse Weibull distribution <a href="/examples/latest/reliability/Inv_Weibull_Ex.html"></a><a href="/examples/latest/reliability/Inv_Weibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>         <img alt="[distributions15]" src="distributions15.bmp"/><br/><br/>where <code>beta</code> is a shape parameter and <code>lambda</code> is a scale parameter, Jiang and Murthy (2001). In the BUGS language it is used as<br/><br/>      <code>x ~ dinv.weib(beta, lambda)</code><br/><br/><br/><h5 id="LinearFailureRate">Linear Failure Rate</h5>The Linear Failure Rate distribution <a href="/examples/latest/reliability/LinearFailure_Ex.html"></a><a href="/examples/latest/reliability/LinearFailure_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions16]" src="distributions16.bmp"/><br/><br/>where <code>alpha</code> and <code>beta</code> are shape parameters. Bain (1974). In the BUGS language it is used as<br/><br/>      <code>x ~ dlin.fr(alpha, beta)</code><br/><br/><br/><h5 id="LogisticExponential">Logistic Exponential</h5>The Logistic Exponential distribution <a href="/examples/latest/reliability/LogisticExponential_Ex.html"></a><a href="/examples/latest/reliability/LogisticExponential_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions17]" src="distributions17.bmp"/><br/><br/>where <code>alpha</code> is a shape parameter and <code>lambda</code> is a scale parameter, Lan and Leemis (2008). In the BUGS language it is used as<br/><br/>      <code>x ~ dlogistic.exp(alpha, lambda)</code><br/><br/><br/><h5 id="LogLogistic">Log-logistic</h5>The Log-Logistic distribution <a href="/examples/latest/reliability/Loglogistic_Ex.html"></a><a href="/examples/latest/reliability/Loglogistic_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions18]" src="distributions18.bmp"/><br/><br/>where <code>beta</code> is a shape parameter and <code>theta</code> is a scale parameter, Lawless (2003). In the BUGS language it is used as<br/><br/>      <code>x ~ dlog.logis(beta, theta)</code><br/><br/><br/><h5 id="LogWeibull">Log-Weibull</h5>The Log-Weibull distribution <a href="/examples/latest/reliability/LogWeibull_Ex.html"></a><a href="/examples/latest/reliability/LogWeibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions19]" src="distributions19.bmp"/><br/><br/>where <code>mu</code> is a location parameter and <code>sigma</code> is a scale parameter, Murthy et al. (2004). In the BUGS language it is used as<br/><br/>      <code>x ~ dlog.weib(mu, sigma)</code><br/><br/><br/><h5 id="ModifiedWeibull">Modified Weibull</h5>The Modified Weibull distribution <a href="/examples/latest/reliability/ModifiedWeibull_Ex.html"></a><a href="/examples/latest/reliability/ModifiedWeibull_Ex.html">[example]</a> is defined by the pdf<br/><br/>      <img alt="[distributions20]" src="distributions20.bmp"/><br/><br/>where a<code>lpha</code> and beta are shape parameters and <code>lambda</code> is a scale parameter, Lai et al..(2003). In the BUGS language it is used as<br/><br/>      <code>x ~ dweib.modified(alpha, beta, lambda)</code><br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="/documentation/latest/reliability/Distributions.html#BirnSaunders">Birnbaum-Saunders</a></li><li><a href="/documentation/latest/reliability/Distributions.html#BurrX">Burr X</a></li><li><a href="/documentation/latest/reliability/Distributions.html#BurrXII">Burr XII</a></li><li><a href="/documentation/latest/reliability/Distributions.html#ExponentialPower">Exponential Power</a></li><li><a href="/documentation/latest/reliability/Distributions.html#ExponentiatedWeibull">Exponentiated Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#ExtendedExponential">Extended Exponential</a></li><li><a href="/documentation/latest/reliability/Distributions.html#ExtendedWeibull">Extended Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#FlexibleWeibull">Flexible Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#GeneralizedExponential">Generalized Exponential</a></li><li><a href="/documentation/latest/reliability/Distributions.html#GeneralizedPowerWeibull">Generalized Power Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#Gompertz">Gompertz</a></li><li><a href="/documentation/latest/reliability/Distributions.html#Gumbel">Gumbel</a></li><li><a href="/documentation/latest/reliability/Distributions.html#InverseGaussian">Inverse Gaussian</a></li><li><a href="/documentation/latest/reliability/Distributions.html#InverseWeibull">Inverse Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#LinearFailureRate">Linear Failure Rate</a></li><li><a href="/documentation/latest/reliability/Distributions.html#LogisticExponential">Logistic Exponential</a></li><li><a href="/documentation/latest/reliability/Distributions.html#LogLogistic">Log-Logistic</a></li><li><a href="/documentation/latest/reliability/Distributions.html#LogWeibull">Log-Weibull</a></li><li><a href="/documentation/latest/reliability/Distributions.html#ModifiedWeibull">Modified Weibull</a></li></ul></div></div></div></div></body></html>

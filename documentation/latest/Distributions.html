@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Distributions</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse show" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li>Distributions</li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Distributions</h4><h5 id="Introduction">Introduction</h5>Commonly encountered distributions are built into BUGS, as described on this page. Further distributions are included in GeoBUGS and ReliaBUGS: see the <a href="/documentation/latest/spatial/SpatialDistributions.html"></a><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a>, <a href="/documentation/latest/spatial/TemporalDistributions.html"></a><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a> and <a href="/documentation/latest/reliability/Distributions.html"></a><a href="/documentation/latest/reliability/Distributions.html">Reliability distributions</a> pages for details of these.<br/><br/>If a distribution is not built into BUGS, distributions specified by a log-likelihood can also be used: see <a href="/documentation/latest/Tricks.html#GenericDistribution"></a><a href="/documentation/latest/Tricks.html#GenericDistribution">Generic sampling distributions</a> for details. <br/><br/><br/><h5 id="Binomial">Binomial</h5><br/>The Binomial distribution is defined by the pmf<br/><br/>      <img alt="[distributions1]" src="distributions1.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>         <code>r ~ dbin(p, n)</code><br/><br/><br/><h5 id="Binomial">Binomial</h5><br/>The Binomial distribution is defined by the pmf<br/><br/>      <img alt="[distributions2]" src="distributions2.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>         <code>r ~ dbin(p, n)</code><br/><br/><br/><h5 id="Categorical">Categorical</h5><br/>The Categorical distribution is defined by the pmf<br/><br/>      <img alt="[distributions3]" src="distributions3.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>r ~ dcat(p[])</code><br/><br/><br/><h5 id="NegativeBinomial">Negative Binomial</h5>The Negative Binomial distribution is defined by the pmf<br/><br/>      <img alt="[distributions4]" src="distributions4.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dnegbin(p, r)</code><br/><br/><br/><h5 id="Poisson">Poisson</h5>The Poisson distribution is defined by the pmf<br/><br/>      <img alt="[distributions5]" src="distributions5.bmp"/><br/>In the BUGS language it is used as<br/>         <br/>         <code>r ~ dpois(lambda)</code><br/><br/><br/><h5 id="NonCentralHypergeometric">Non-central hypergeometric</h5>The Non-central hypergeometic distribution is defined by the pmf<br/><br/>      <img alt="[distributions6]" src="distributions6.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>         <code>x ~ dhyper(n, m, N, psi)</code><br/><br/><br/><h5 id="Beta">Beta</h5>The Beta distribution is defined by the pdf<br/><br/>      <img alt="[distributions7]" src="distributions7.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>         <code>p ~ dbeta(a, b)</code><br/><br/><br/><h5 id="ChiSquared">Chi-squared</h5>The Chi-squared distribution is defined by the pdf<br/><br/>      <img alt="[distributions8]" src="distributions8.bmp"/><br/>      <br/>In the BUGS language it is used as<br/><br/>         <code>x ~ dchisqr(k)</code><br/><br/><br/><h5 id="DoubleExponential">Double Exponential</h5>The Double Exponential distribution is defined by the pdf<br/><br/>      <img alt="[distributions9]" src="distributions9.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ ddexp(mu, tau)</code><br/><br/><br/><h5 id="Exponential">Exponential</h5>The Exponential distribution is defined by the pdf<br/><br/>      <img alt="[distributions10]" src="distributions10.bmp"/><br/><br/>In the BUGS language it is used as<br/>      <br/>      <code>x ~ dexp(lambda)</code><br/><br/><br/><h5 id="Flat">Flat</h5>The improper Flat distribution has a constant value for all x. It is not a proper distribution.<br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dflat()</code><br/><br/><br/><h5 id="Gamma">Gamma</h5>The Gamma distribution is defined by the pdf<br/><br/>      <img alt="[distributions11]" src="distributions11.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dgamma(r, mu)</code><br/><br/><br/><h5 id="GeneralizedExtremeValue">Generalized extreme value</h5>The Generlized extreme value distribution is defined by the pdf<br/><br/>      <img alt="[distributions12]" src="distributions12.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dgev(mu, sigma, eta)</code><br/><br/><br/><h5 id="GeneralizedF">Generalized F</h5>The Generalized F distribution is defined by the pdf<br/><br/>         <img alt="[distributions13]" src="distributions13.bmp"/><br/><br/>It reduces to the standard F for mu=0, tau=1. In the BUGS language it is used as<br/><br/>      <code>x ~ df(n, m, mu, tau)</code><br/><br/><br/><h5 id="GeneralizedGamma">Generalized Gamma</h5>The Generalized Gamma distribution is defined by the pdf<br/><br/>      <img alt="[distributions14]" src="distributions14.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dggamma(r, mu, beta)</code><br/><br/><br/><h5 id="GeneralizedPareto">Generalized Pareto</h5>The Generalized Pareto distribution is defined by the pdf<br/><br/>      <img alt="[distributions15]" src="distributions15.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dgpar(mu, sigma, eta)</code><br/><br/><br/><h5 id="GenericLogLikelihoodDistribution">Generic log-likelihood distribution</h5>The generic log-likelihood distribution is defined by the pdf exp(lambda). It allows generic log-likelihoods to be used in BUGS. See <a href="/documentation/latest/Tricks.html#GenericDistribution"></a><a href="/documentation/latest/Tricks.html#GenericDistribution">Generic sampling distributions</a> for details. Note it does not depend on x.<br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dloglik(lambda)</code><br/><br/><br/><h5 id="LogNormal">Log-normal</h5>The Log-normal distribution is defined by the pdf<br/><br/>      <img alt="[distributions16]" src="distributions16.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dlnorm(mu, tau)</code><br/><br/><br/><h5 id="Logistic">Logistic</h5>The Logistic distribution is defined by the pdf<br/><br/>      <img alt="[distributions17]" src="distributions17.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dlogis(mu, tau)</code><br/><br/><br/><h5 id="Normal">Normal</h5>The Normal distribution is defined by the pdf<br/><br/>      <img alt="[distributions18]" src="distributions18.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dnorm(mu, tau)</code><br/><br/><br/><h5 id="Pareto">Pareto</h5>The Pareto distribution is defined by the pdf<br/><br/>      <img alt="[distributions19]" src="distributions19.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dpar(alpha, c)</code><br/><br/><br/><h5 id="StudentT">Student-t</h5>The Student-t distribution is defined by the pdf<br/><br/>      <img alt="[distributions20]" src="distributions20.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dt(mu, tau, k)</code><br/><br/><br/><h5 id="Uniform">Uniform</h5>The Uniform distribution is defined by the pdf<br/><br/>      <img alt="[distributions21]" src="distributions21.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dunif(a, b)</code><br/><br/><br/><h5 id="Weibull">Weibull</h5>The Weibull distribution is defined by the pdf<br/><br/>      <img alt="[distributions22]" src="distributions22.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x ~ dweib(v, lambda)</code><br/><br/><br/><h5 id="Multinomial">Multinomial</h5>The Multinomial distribution is defined by the pmf<br/><br/>      <img alt="[distributions23]" src="distributions23.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x[] ~ dmulti(p[], N)</code><br/><br/><br/><h5 id="Dirichlet">Dirichlet</h5>The Dirichlet distribution is defined by the pdf<br/><br/>      <img alt="[distributions24]" src="distributions24.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>p[] ~ ddirich(alpha[])</code><br/><br/>It may also be spelt <code>ddirch</code> as in WinBUGS.<br/><br/><br/><h5 id="MultivariateNormal">Multivariate normal</h5>The Multivariate Normal distribution is defined by the pdf<br/><br/>      <img alt="[distributions25]" src="distributions25.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x[] ~ dmnorm(mu[], T[,])</code><br/><br/><br/><h5 id="MultivariateStudentT">Multivariate Student-t</h5>The Multivariate Student-t distribution is defined by the pdf<br/><br/>      <img alt="[distributions26]" src="distributions26.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x[] ~ dmt(mu[], T[,], k)</code><br/><br/><br/><h5 id="Wishart">Wishart</h5>The Wishart distribution is defined by the pdf<br/><br/>      <img alt="[distributions27]" src="distributions27.bmp"/><br/><br/>In the BUGS language it is used as<br/><br/>      <code>x[,] ~ dwish(R[,], k)</code><br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#Bernoulli">Bernoulli</a></li><li><a href="#Binomial">Binomial</a></li><li><a href="#Categorical">Categorical</a></li><li><a href="#NegativeBinomial">Negative Binomial</a></li><li><a href="#Poisson">Poisson</a></li><li><a href="#NonCentralHypergeometric">Non-central hypergeometric</a></li><li><a href="#Beta">Beta</a></li><li><a href="#ChiSquared">Chi-squared</a></li><li><a href="#DoubleExponential">Double Exponential</a></li><li><a href="#Exponential">Exponential</a></li><li><a href="#Flat">Flat</a></li><li><a href="#Gamma">Gamma</a></li><li><a href="#GeneralizedExtremeValue">Generalized Extreme Value</a></li><li><a href="#GeneralizedF">Generalized F</a></li><li><a href="#GeneralizedGamma">Generalized Gamma</a></li><li><a href="#GeneralizedPareto">Generalized Pareto</a></li><li><a href="#GenericLogLikelihoodDistribution">Generic log-likelihood distribution</a></li><li><a href="#LogNormal">Log-normal</a></li><li><a href="#Logistic">Logistic</a></li><li><a href="#Normal">Normal</a></li><li><a href="#Pareto">Pareto</a></li><li><a href="#StudentT">Student-t</a></li><li><a href="#Uniform">Uniform</a></li><li><a href="#Weibull">Weibull</a></li><li><a href="#Multinomial">Multinomial</a></li><li><a href="#Dirichlet">Dirichlet</a></li><li><a href="#MultivariateNormal">Multivariate normal</a></li><li><a href="#MultivariateStudentT">Multivariate Student-t</a></li><li><a href="#Wishart">Wishart</a></li></ul></div></div></div></div></body></html>

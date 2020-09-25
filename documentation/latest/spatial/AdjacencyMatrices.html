@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>AdjacencyMatrices</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse show" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li>Adjacency matrices</li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Adjacency Matrices</h4><h5 id="Adj">Producing adjacency matrices</h5><br/><br/>GeoBUGS includes an option to produce a data file containing the adjacency matrix for any map loaded on the system. This file is in a format required by the <a href="/documentation/latest/spatial/SpatialDistributions.html#car.normal">car.normal</a>, <a href="/documentation/latest/spatial/SpatialDistributions.html#car.normal">car.l1</a><a href="/documentation/latest/spatial/SpatialDistributions.html#car.normal"></a> and <a href="/documentation/latest/spatial/SpatialDistributions.html#mv.car">mv.car</a> conditional autoregressive distributions available in the OpenBUGS program.<br/><br/>* Select the <span class="window_title">Adjacency Tool</span> option from the <span class="button">Map</span> menu.<br/><br/>                  <font color="#000100" face="Arial" size="2"><img alt="[adjacencymatrices1]" src="adjacencymatrices1.bmp"/><br/><br/></font>* Select the name of the map you wish to draw from the pull-down menu labelled <span class="button">Map</span> and click on <span class="button">adj map</span>. The selected map will then appear in a window.<br/><br/>* Typing the ID number of a region in the bottom white box and clicking <span class="button">shw region</span> will cause the specified region to be highlighted in red on the map; its neighbours (defined to be any region adjacent to the red region) are highlighted in green. <a id="highlight">A region and its neighbours can also be highlighted by positioning the mouse cursor over the required region on the map and clicking with the left button.</a><br/><br/>* Click on the <span class="button">adj matrix</span> button to produce a text file containing the adjacency matrix in a form suitable for loading as data into OpenBUGS for use with the <code>car.normal</code>, <code>car.l1</code> and <code>mv.car</code> distributions. (See <a href="/documentation/latest/spatial/SpatialDistributions.html#Appendix">appendix 1</a> for further details about these three distributions).<br/><br/>Note: when calculating which areas are adjacent to which others, GeoBUGS includes a 'tolerance' zone of 0.1 metres. This tolerance zone should not lead to spurious neighbours unless you forget to appropriately scale your distance units in the polygon file using the <a href="/documentation/latest/spatial/ImportExport.html#xscale">Xscale</a> and <a href="/documentation/latest/spatial/ImportExport.html#xscale">Yscale</a> options, or your map covers a tiny geographic region (in which case, artificially re-scaling the distance units for your map should overcome any problems). <br/><br/><h5 id="AdjEditing">Editing adjacency matrices</h5><br/><br/>To remove a region from the set of neighbours for a specific area:<br/><br/>* <a href="#highlight"></a><a href="#highlight">Highlight</a> the specific area in red on the map;<br/><br/>* Place the mouse cursor over the region to be removed from the set of neighbours for the red area;<br/><br/>* Hold down the Ctrl key while clicking with the left mouse button. The removed area will no longer be highlighted in green.<br/><br/>To add a region to the set of neighbours for a specific area:<br/><br/>* <a href="#highlight"></a><a href="#highlight">Highlight</a> the specific area in red on the map;<br/><br/>* Place the mouse cursor over the region to be added to the set of neighbours for the red area<br/><br/>* Hold down the Ctrl key while clicking with the left mouse button. The additional area will then become highlighted in green.<br/><br/>Once you have finished editing the set of neighbours for each region on your map, <a href="#Adj"></a><a href="#Adj">create the new adjacency matrix</a> by clicking on the <span class="button">adj matrix</span> button.<br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#Adj">Producing adjacency matrices</a></li><li><a href="#AdjEditing">Editing adjacency matrices</a></li></ul></div></div></div></div></body></html>

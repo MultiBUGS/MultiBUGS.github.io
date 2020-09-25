@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Bones</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/documentation/latest/">Documentation</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/examples/latest/">Examples <span class="sr-only">(current)</span></a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Examples</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume1">Volume I</a>
+<ul class="collapse show" id="volume1">
+<li><a href="/examples/latest/Volumei.html">Contents</a></li>
+<li><a href="/examples/latest/Rats.html" title="Normal hierarchical model">Rats</a></li>
+<li><a href="/examples/latest/Pumps.html" title="Conjugate gamma-Poisson hierarchical model">Pumps</a></li>
+<li><a href="/examples/latest/Dogs.html" title="Log linear binary model">Dogs</a></li>
+<li><a href="/examples/latest/Seeds.html" title="Random effects logistic regression">Seeds</a></li>
+<li><a href="/examples/latest/Surgical.html" title="Institutional ranking">Surgical</a></li>
+<li><a href="/examples/latest/Magnesium.html" title="Meta-analysis prior sensitivity">Magnesium</a></li>
+<li><a href="/examples/latest/Salm.html" title="Extra-Poisson variation in dose-response study">Salm</a></li>
+<li><a href="/examples/latest/Equiv.html" title="Bioequivalence in a cross-over trial">Equiv</a></li>
+<li><a href="/examples/latest/Dyes.html" title="Variance components model">Dyes</a></li>
+<li><a href="/examples/latest/Stacks.html" title="Robust and ridge regression">Stacks</a></li>
+<li><a href="/examples/latest/Epil.html" title="Repeated measures on Poisson counts">Epil</a></li>
+<li><a href="/examples/latest/Blockers.html" title="Random effects meta-analysis of clinical trials">Blockers</a></li>
+<li><a href="/examples/latest/Oxford.html" title="Smooth fit to log-odds ratios in case control studies">Oxford</a></li>
+<li><a href="/examples/latest/Lsat.html" title="Latent variable models for item-response data">LSAT</a></li>
+<li>Bones</li>
+<li><a href="/examples/latest/Inhalers.html" title="Random effects model for ordinal responses from a cross-over trial">Inhalers</a></li>
+<li><a href="/examples/latest/Mice.html" title="Weibull regression in censored survival analysis">Mice</a></li>
+<li><a href="/examples/latest/Kidney.html" title="Weibull regression with random effects">Kidney</a></li>
+<li><a href="/examples/latest/Leuk.html" title="Survival analysis using Cox regression">Leuk</a></li>
+<li><a href="/examples/latest/Leukfr.html" title="Cox regression with frailties">LeukFr</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume2">Volume II</a>
+<ul class="collapse" id="volume2">
+<li><a href="/examples/latest/Volumeii.html">Contents</a></li>
+<li><a href="/examples/latest/Dugongs.html" title="A nonconjugate, nonlinear model">Dugongs</a></li>
+<li><a href="/examples/latest/Otrees.html" title="A hierarchical, nonlinear model">Orange trees</a></li>
+<li><a href="/examples/latest/OtreesMVN.html" title="A hierarchical, nonlinear model">MV Orange trees</a></li>
+<li><a href="/examples/latest/Biopsies.html" title="Latent class model">Biopsies</a></li>
+<li><a href="/examples/latest/Eyes.html" title="Normal mixture model">Eyes</a></li>
+<li><a href="/examples/latest/Hearts.html" title="A mixture model for count data">Hearts</a></li>
+<li><a href="/examples/latest/Air.html" title="Covariate measurement error">Air</a></li>
+<li><a href="/examples/latest/Cervix.html" title="Case-control study with errors in covariates">Cervix</a></li>
+<li><a href="/examples/latest/Jaws.html" title="Repeated measures analysis of variance">Jaw</a></li>
+<li><a href="/examples/latest/BiRats.html" title="A bivariate Normal hierarchical model">Birats</a></li>
+<li><a href="/examples/latest/Schools.html" title="Multivariate hierarchical model of examination results">Schools</a></li>
+<li><a href="/examples/latest/Ice.html" title="Non-parametric smoothing in an age-cohort model">Ice</a></li>
+<li><a href="/examples/latest/Beetles.html" title="Logistic, probit and extreme value models">Beetles</a></li>
+<li><a href="/examples/latest/Alligators.html" title="Multinomial logistic model">Alligators</a></li>
+<li><a href="/examples/latest/Endo.html" title="Conditional inference in case-control studies">Endo</a></li>
+<li><a href="/examples/latest/Stagnant.html" title="A change point problem">Stagnant</a></li>
+<li><a href="/examples/latest/Asia.html" title="An expert system">Asia</a></li>
+<li><a href="/examples/latest/Pigs.html" title="Genetic counseling and pedigree analysis">Pigs</a></li>
+<li><a href="/examples/latest/t-df.html" title="Degree of freedom of a t distribution">Simulating data</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume3">Volume III</a>
+<ul class="collapse" id="volume3">
+<li><a href="/examples/latest/Volumeiii.html">Contents</a></li>
+<li><a href="/examples/latest/Camel.html" title="Multivariate normal with structured missing data">Camel</a></li>
+<li><a href="/examples/latest/Eyetracking.html" title="Dirichlet process prior">Eye Tracking</a></li>
+<li><a href="/examples/latest/Fire.html" title="Data distribution using dloglik">Fire insurance claims</a></li>
+<li><a href="/examples/latest/Funshapes.html" title="General constraints">Fun Shapes</a></li>
+<li><a href="/examples/latest/Hepatitis.html" title="Random effects model with measurement error">Hepatitis</a></li>
+<li><a href="/examples/latest/Hips1.html" title="Deterministic cost-effectiveness model">Hips1</a></li>
+<li><a href="/examples/latest/Hips2.html" title="Stochastic cost-effectiveness model">Hips2</a></li>
+<li><a href="/examples/latest/Hips3.html" title="Cost-effectiveness model">Hips3</a></li>
+<li><a href="/examples/latest/Hips4.html" title="Cost-effectiveness model">Hips4</a></li>
+<li><a href="/examples/latest/Jama.html" title="Radio carbon dating with phase information">Jama</a></li>
+<li><a href="/examples/latest/Pigweights.html" title="Smoothed histogram">Pig Weights</a></li>
+<li><a href="/examples/latest/Pines.html" title="Bayes factors using pseudo priors">Pines</a></li>
+<li><a href="/examples/latest/StVeit.html" title="Radio carbon dating with stratification">St Veit</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume4">Volume IV</a>
+<ul class="collapse" id="volume4">
+<li><a href="/examples/latest/Volumeiv.html">Contents</a></li>
+<li><a href="/examples/latest/SeedsDataCloning.html" title="Estimating MLEs">Seeds</a></li>
+<li><a href="/examples/latest/Coins.html" title="The ABC">Coins</a></li>
+<li><a href="/examples/latest/SmartPhones.html" title="A bootstrap approach">Smart phones</a></li>
+<li><a href="/examples/latest/Abbey.html" title="Share prices a stable approach">Abbey</a></li>
+<!--<li><a href="/examples/latest/BeetlesMLE.html" title="Differential evolution and MLEs">Beetles</a></li>-->
+<li><a href="/examples/latest/BeetlesProbit.html" title="Probit regression and censoring">Beetles</a></li>
+<li><a href="/examples/latest/Preeclampsia.html" title="A multistage approach">Preeclampsia</a></li>
+<li><a href="/examples/latest/Lotka-Volterra.html" title="A simple ODE model">Lotka-Volterra</a></li>
+<li><a href="/examples/latest/FiveCompartment.html" title="A complex ODE model">Five compartment</a></li>
+<li><a href="/examples/latest/ChangePoints.html" title="An ODE model with change points">Change points</a></li>
+<li><a href="/examples/latest/Pollution.html" title="An autoregressive time series model">Pollution</a></li>
+<li><a href="/examples/latest/Methadone.html" title="A large e-health random effects model">Methadone</a></li>
+<li><a href="/examples/latest/Functionals.html" title="Integration and algebraic equations">Functionals</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#ecology">Ecology</a>
+<ul class="collapse" id="ecology">
+<li><a href="/examples/latest/VolumeEco.html">Contents</a></li>
+<li><a href="/examples/latest/Gentians.html" title="Imperfect detection in site occppancy">Gentians</a></li>
+<li><a href="/examples/latest/Sparrowhawk.html" title="Generalised metapopulation model">Sparrowhawks</a></li>
+<li><a href="/examples/latest/Birds.html" title="Estimating species richness">Birds</a></li>
+<li><a href="/examples/latest/Lizards.html" title="Mixture model for abundance with imperfect detection">Lizards</a></li>
+<li><a href="/examples/latest/Voles.html" title="Estimating size of closed population">Voles</a></li>
+<li><a href="/examples/latest/Impala.html" title="Distance sampling">Impala</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/examples/latest/spatial/Examples.html">Contents</a></li>
+<li><a href="/examples/latest/spatial/Scotland.html" title="Lip cancer in Scotland">Conditional Autoregressive (CAR) models for disease mapping</a></li>
+<li><a href="/examples/latest/spatial/LHA.html" title="Lung cancer in a London Health Authority">Convolution priors</a></li>
+<li><a href="/examples/latest/spatial/Scotland1.html" title="Lip cancer revisited">Proper CAR model</a></li>
+<li><a href="/examples/latest/spatial/Elevation.html" title="Surface elevation">Bayesian kriging and spatial prediction</a></li>
+<li><a href="/examples/latest/spatial/Forest.html" title="Distribution of hickory trees in Duke forest">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Huddersfield.html" title="Ecological regression of air pollution and respiratory illness in children">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Shared.html" title="Oral cavity cancer and lung cancer in West Yorkshire (UK)">Shared component for mapping multiple diseases</a></li>
+<li><a href="/examples/latest/spatial/Pollution.html">Random walk priors for temporal smoothing of daily air pollution estimates</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/examples/latest/reliability/Vol.html">Contents</a></li>
+<li><a href="/examples/latest/reliability/BS_Ex.html" title="'psi31' data from B&amp;S(1969)">Birnbuam-Saunders model</a></li>
+<li><a href="/examples/latest/reliability/BurrX_Ex.html" title="'Ball bearing' data from Lawless(2003)">BurrX model</a></li>
+<li><a href="/examples/latest/reliability/BurrXII_Ex.html" title="Simulated example ">BurrXII model</a></li>
+<li><a href="/examples/latest/reliability/ExpoWeibull_Ex.html" title="Carbon Fibres data from Nichols and Padgett (2006) ">Two Parameter Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/ExpPower_Ex.html" title="'Simulated data">Exponential Power model</a></li>
+<li><a href="/examples/latest/reliability/Ext_exponential_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006)">Marshal-Olkin Extended Exponential (MOEE) model</a></li>
+<li><a href="/examples/latest/reliability/Ext_Weibull_Ex.html" title="'Device failure times data' from Meeker and Escobar(1998)">Marshal-Olkin Extended Weibull model</a></li>
+<li><a href="/examples/latest/reliability/FlexibleWeibull_Ex.html" title="'Reactor pump failure data' from Bebbinton, Lai, and Zitikis(2007)">Flexible Weibull model</a></li>
+<li><a href="/examples/latest/reliability/GenExponential_Cen_Ex.html" title="'Ball bearing' data from Lawless(2003)">Censored Generalized Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Gompertz_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gompertz model</a></li>
+<li><a href="/examples/latest/reliability/GPWeibull_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006) ">Two Parameter (GP) Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/Gumbel_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gumbel model</a></li>
+<li><a href="/examples/latest/reliability/Inv_Weibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Inverse Weibull model</a></li>
+<li><a href="/examples/latest/reliability/InvGaussian_Ex.html" title="'Transceiver data' from Chikara and Folks (9177)">Inverse Gaussian model</a></li>
+<li><a href="/examples/latest/reliability/LinearFailure_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Linear Failure Rate (LFR) model</a></li>
+<li><a href="/examples/latest/reliability/LogisticExponential_Ex.html" title="'Naval logistics' data from Yan and Leemis (2008)">Logistic-Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Loglogistic_Ex.html" title="Simulated data">Log-Logistic model</a></li>
+<li><a href="/examples/latest/reliability/LogWeibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Log-Weibull model</a></li>
+<li><a href="/examples/latest/reliability/ModifiedWeibull_Ex.html" title="Data from Aarset(1987)">Modified Weibull model</a></li>
+<li><a href="/examples/latest/reliability/WeibullShifted_Ex.html" title="Simulated data">Weibull-shifted model</a></li>
+</ul>
+</li>
+</li></li></li></li></ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Bones: latent trait model  for multiple ordered categorical responses</h4><br/>The concept of skeletal age (SA) arises from the idea that individuals mature at different rates: for any given chronological age (CA), the <em>average</em> SA in a sample of individuals should equal their CA, but with an inter-individual spread which reflects the differential rate of maturation. Roche et al (1975) have developed a model for predicting SA by calibrating 34 indicators (items) of skeletal maturity which may be observed in a radiograph. Each indicator is categorized with respect to its degree of maturity: 19 are binary items (i.e. 0 = immature or 1 = mature); 8 items have 3 grades (i.e. 0 = immature; 1 = partially mature; 2 = fully mature); 1 item has 4 ordered grades and the remaining 6 items have 5 ordered grades of maturity. Roche <em>et al.</em> calculated threshold parameters for the boundarys between grades for each indicator. For the binary items, there is a single threshold representing the CA at which 50% of individuals are mature for the indicator. Three-category items have 2 threshold parameters: the first corresponds to the CA at which 50% of individuals are either partially or fully mature for the indicator; the second is the CA at which 50% of individuals are fully mature. Four and five-category items have 3 and 4 threshold parameters respectively, which are interpreted in a similar manner to those for 3-category items. In addition, Roche <em>et al. </em>calculated a discriminability (slope) parameter for each item which reflects its rate of maturation. Part of this data is shown below. Columns 1--4 represent the threshold parameters (note the use of the missing value code NA to `fill in' the columns for items with fewer than 4 thresholds); column 5 is the discriminability parameter; column 6 gives the number of grades per item.<br/></p><center><br/><font color="#000100" face="Arial" size="2"><img alt="[bones1]" src="bones1.bmp"/></font>   <br/></center>Thissen (1986) (p.71) presents the following graded radiograph data on 13 boys whose chronological ages range from 6 months to 18 years. (Note that for ease of implementation in <em>BUGS</em> we have listed the items in a different order to that used by Thissen):<br/><center><br/><font color="#000100" face="Arial" size="2"><img alt="[bones2]" src="bones2.bmp"/></font><br/></center>Some items have missing data (represented by the code NA in the table above). This does not present a problem for <em>BUGS</em>: the missing grades are simply treated as unknown parameters to be estimated along with the other parameters of interest such as the SA for each boy.<br/><br/>Thissen models the above data using the logistic function. For each item <em>j</em> and each grade <em>k</em>, the cumulative probability Q<font color="#000100" face="Arial" size="2"><sub>jk</sub></font> that a boy with skeletal age <font>θ</font> is assigned a more mature grade than <em>k</em> is given by<br/><br/>   logitQ<font color="#000100" face="Arial" size="2"><sub>jk</sub></font><sub> </sub>= <font>δ</font><font color="#000100" face="Arial" size="2"><sub>j</sub></font>(<font>θ</font> - <font>γ</font><font color="#000100" face="Arial" size="2"><sub>jk</sub></font>)<br/>   <br/>where <font>δ</font><font color="#000100" face="Arial" size="2"><sub>j</sub></font> is the discriminability parameter and the <font>γ</font><font color="#000100" face="Arial" size="2"><sub>jk</sub></font> are the threshold parameters for item <em>j</em>. Hence the probability of observing an immature grade (i.e. k =1) for a particular skeletal age <font>θ</font> is p<font color="#000100" face="Arial" size="2"><sub>j,1</sub></font> = 1 - Q<font color="#000100" face="Arial" size="2"><sub>j,1</sub></font>. The probability of observing a fully mature grade (i.e.k = K<font color="#000100" face="Arial" size="2"><sub>j</sub></font>, where K<font color="#000100" face="Arial" size="2"><sub>j</sub></font> is the number of grades for item <em>j </em>is p<font color="#000100" face="Arial" size="2"><sub>j</sub></font><sub>,K</sub><font color="#000100" face="Arial" size="2"><sub>j</sub></font> = Q<font color="#000100" face="Arial" size="2"><sub>j</sub></font><sub>,K</sub><font color="#000100" face="Arial" size="2"><sub>j</sub></font><font color="#000100" face="Arial" size="2"><sub> -1</sub></font>. For items with 3 or more categories, the probability of observing an itermediate grade is p<font color="#000100" face="Arial" size="2"><sub>j,k</sub></font> = Q<font color="#000100" face="Arial" size="2"><sub>j,k-1</sub></font> - Q<font color="#000100" face="Arial" size="2"><sub>j,k</sub></font> (i.e. the difference between the cumulative probability of being assigned grade <em>k</em> or more, and of being assigned grade <em>k+1</em> or more). <br/><br/>The <em>BUGS</em> language for this model is given below. Note that the <font>θ</font><font color="#000100" face="Arial" size="2"><sub>i</sub></font> for each boy <em>i</em> is assigned a vague, independent normal prior theta[i] ~ dnorm(0.0, 0.001). That is, each boy is treated as a separate problem with is no `learning' or `borrowing strength' across individuals, and hence no hierachical structure on the <font>θ</font><font color="#000100" face="Arial" size="2"><sub>i</sub></font>'s.<br/><center><br/><br/>BUGS<em> language for bones example</em><br/><br/></center>   model<br/>   {<br/>      for (i in 1 : nChild) {<br/>         theta[i] ~ dnorm(0.0, 0.001)<br/>         for (j in 1 : nInd) { <br/>   # Cumulative probability of &gt; grade k given theta<br/>            for (k in 1: ncat[j] - 1) {<br/>               logit(Q[i, j, k]) &lt;- delta[j] * (theta[i] - gamma[j, k])<br/>            }<br/>         }<br/><br/>   # Probability of observing grade k given theta<br/>         for (j in 1 : nInd) {<br/>            p[i, j, 1] &lt;- 1 - Q[i, j, 1]<br/>            for (k in 2 : ncat[j] - 1) {<br/>               p[i, j, k] &lt;- Q[i, j, k - 1] - Q[i, j, k]<br/>            }<br/>            p[i, j, ncat[j]] &lt;- Q[i, j, ncat[j] - 1]<br/>            grade[i, j] ~ dcat(p[i, j, 1 : ncat[j]])<br/>         }<br/>      }<br/>   } <br/><a href="/examples/latest/Bonesdata.html"></a><div><h5>Data</h5><details><code>
+list(nChild = 13, nInd = 34,<br/>   gamma = structure(<br/>   .Data = c(0.7425, NA, NA, NA,<br/>10.2670, NA, NA, NA,<br/>10.5215, NA, NA, NA,<br/>9.3877, NA, NA, NA,<br/>0.2593, NA, NA, NA,<br/>-0.5998, NA, NA, NA,<br/>10.5891, NA, NA, NA,<br/>6.6701, NA, NA, NA,<br/>8.8921, NA, NA, NA,<br/>12.4275, NA, NA, NA,<br/>12.4788, NA, NA, NA,<br/>13.7778, NA, NA, NA,<br/>5.8374, NA, NA, NA,<br/>6.9485, NA, NA, NA,<br/>13.7184, NA, NA, NA,<br/>14.3476, NA, NA, NA,<br/>4.8066, NA, NA, NA,<br/>9.1037, NA, NA, NA,<br/>10.7483, NA, NA, NA,<br/>0.3887, 1.0153, NA, NA,<br/>3.2573, 7.0421, NA, NA,<br/>11.6273, 14.4242, NA, NA,<br/>15.8842, 17.4685, NA, NA,<br/>14.8926, 16.7409, NA, NA,<br/>15.5487, 16.8720, NA, NA,<br/>15.4091, 17.0061, NA, NA,<br/>3.9216, 5.2099, NA, NA,<br/>15.4750, 16.9406, 17.4944, NA,<br/>0.4927, 1.3556, 2.3016, 3.2535,<br/>1.3059, 1.8793, 2.4970, 3.2306,<br/>1.5012, 1.8902, 2.3689, 2.9495,<br/>0.8021, 2.3873, 3.9525, 5.3198,<br/>5.0022, 6.3704, 8.2832, 10.4988,<br/>4.0168, 5.1537, 7.1053, 10.3038), .Dim = c(34, 4)),<br/>delta = c(2.9541, 0.6603, 0.7965, 1.0495, 5.7874, 3.8376, 0.6324, <br/>0.8272, 0.6968, 0.8747, 0.8136, 0.8246, 0.6711, 0.978, <br/>1.1528, 1.6923, 1.0331, 0.5381, 1.0688, 8.1123, 0.9974, <br/>1.2656, 1.1802, 1.368, 1.5435, 1.5006, 1.6766, 1.4297, <br/>3.385, 3.3085, 3.4007, 2.0906, 1.0954, 1.5329),<br/>ncat = c(2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, <br/>3, 3, 3, 3, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5), <br/>grade = structure(<br/>.Data = c(<br/>1,1,1, 1,1,1,1, 1,1,1, 1, 1, 1, 1,1, 1, 1,1, 1,2,1,1, 1, 1, 1, 1,1,1,2,1,1,2,1,1,<br/>2,1,1, 1,2,2,1, 1,1,1, 1, 1, 1, 1,1, 1, 1,1, 1,3,1,1, 1, 1, 1, 1,1,1,3,1,1,2,1,1,<br/>2,1,1, 1,2,2,1, 1,1,1, 1, 1, 1, 1,1, 1, 1,1, 1,3,1,1, 1, 1, 1, 1,1,1,4,3,3,3,1,1,<br/>2,1,1, 1,2,2,1, 1,1,1, 1, 1, NA,1,1, 1, 1,1, 1,3,1,1, 1, 1, 1, 1,1,1,4,5,4,3,1,1,<br/>2,1,1, 1,2,2,1, 1,2,1, 1, 1, 1, 1,1, 1, 2,1, 1,3,2,1, 1, 1, 1, 1,3,1,5,5,5,4,2,3,<br/>2,1,1, 1,2,2,1, 2,1,1, 1, 1, 1, 2,1, 1, 2,NA,1,3,2,1, 1, 1, 1, 1,3,1,5,5,5,5,3,3,<br/>2,1,1, 1,2,2,1, 1,1,NA,NA,1, 1, 1,1, 1, 2,NA,1,3,3,1, 1, 1, 1, 1,3,1,5,5,5,5,3,3,<br/>2,1,2, 2,2,2,2, 2,1,NA,NA,1, 2, 2,1, 1, 2,2, 1,3,2,1, 1, 1, 1, 1,3,1,5,5,5,5,3,4,<br/>2,1,1, 2,2,2,2, 2,2,1, 1, 1, 2, 1,1, 1, 2,1, 1,3,3,1, 1, 1, 1, 1,3,1,5,5,5,5,4,4,<br/>2,1,2, 2,2,2,2, 2,2,1, 1, 1, 2, 2,2, 1, 2,NA,2,3,3,1, 1, 1, 1, 1,3,1,5,5,5,5,5,5,<br/>2,1,NA,2,2,2,NA,2,2,1, NA,NA,2, 2,NA,NA,2,1, 2,3,3,NA,1, NA,1, 1,3,1,5,5,5,5,5,5,<br/>2,2,2, 2,2,2,2, 2,2,2, 2, 2, 2, 2,2, 2, 2,2, 2,3,3,3, 1, NA,2, 1,3,2,5,5,5,5,5,5,<br/>2,2,2, 2,2,2,2, 2,2,2, NA,2, 2, 2,2, 2, 2,2, 2,3,3,3, NA,2, NA,2,3,4,5,5,5,5,5,5), .Dim = c(13, 34))<br/>)<br/>
+</code></details></div><a href="/examples/latest/Bonesinits.html"></a><div><h5>Inits for chain 1</h5><details><code>
+list(theta = c(0.5,1,2,3,5,6,7,8,9,12,13,16,18),<br/>grade = structure(<br/>.Data = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, 1, NA, NA, <br/>   NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, 1, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, <br/>   NA, NA, NA, 1, NA, NA, NA, 1, 1, NA, NA, 1, 1, NA, NA, NA, NA, NA, 1, <br/>   NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, NA, 1, NA, NA,<br/>   NA, NA, NA, NA, NA, NA, NA), .Dim = c(13, 34))<br/>   )<br/>
+</code></details></div>    <a href="/examples/latest/Bonesinits1.html"></a><div><h5>Inits for chain 2</h5><details><code>
+list(theta = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13),<br/>grade = structure(<br/>.Data = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, 1, NA, NA, <br/>   NA, NA, NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, 1, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, <br/>   NA, NA, NA, 1, NA, NA, NA, 1, 1, NA, NA, 1, 1, NA, NA, NA, NA, NA, 1, <br/>   NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, <br/>   NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, <br/>   NA, NA, 1, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 1, NA, 1, NA, NA,<br/>   NA, NA, NA, NA, NA, NA, NA), .Dim = c(13, 34))<br/>   )<br/>
+</code></details></div><br/>We note a couple of tricks used in the above code. Firstly, the variable p has been declared as a 3-way rectangular array with the size of the third dimension equal to the maximum number of possible grades (i.e.5) for all items (even though items 1--28 have fewer than 5 categories). The statement <br/><br/>   grade[i, j] ~ dcat(p[i, j, 1 :ngrade[j]])<br/><br/>is then used to select the relevant elements of p[i,j, ] for item <em>j</em>, thus ignoring any `empty' spaces in the array for items with fewer than the maximum number of grades. Secondly, the final section of the above code includes a loop indexed as follows <br/><font color="#0000FF" face="Arial" size="5">Results</font><font color="#0000FF" face="Arial" size="5"><br/><br/><img alt="[bones3]" src="bones3.bmp"/></font><br/>
+
+<p></p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5></div></div></div></div></body></html>

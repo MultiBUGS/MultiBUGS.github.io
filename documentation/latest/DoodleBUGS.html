@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>DoodleBUGS</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse show" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li>DoodleBUGS</li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>DoodleBUGS: The doodle editor</h4><h5 id="GeneralProperties">General properties</h5>Doodles consist of three elements: <em>nodes</em>, <em>plates</em> and <em>edges</em>. The graph is built up out of these elements using the mouse and keyboard. The <em>Doodle</em> menu contains options that apply to the whole <em>Doodle</em>. These menu options are described below.<br/><br/><strong><em>New...</em></strong>Dialog box for creating a new <em>Doodle</em>. Allows a choice of size of the Doodle graphic and the size of the nodes in the Doodle.<br/><br/>            <img alt="[doodlebugs1]" src="doodlebugs1.bmp"/><br/><br/><strong><em>No grid, grid 1mm, grid 2mm, grid 5mm:</em></strong> options for the snap grid the snap grid to which the centre of each node and each corner of each plate is constrained to lie.<br/><br/><strong><em>Scale Model: </em></strong>shrinks the Doodle so thatthe size of each node and plate plus the separation between them is reduced by a constant factor. The Doodle will move towards the top left corner of the window. This command is useful if you run out of space while drawing the Doodle. Note that the Doodlewill still be constrained by the snap grid, and if the snap is coarse then the Doodlecould be badly distorted.<br/><br/>            <img alt="[doodlebugs2]" src="doodlebugs2.bmp"/><br/><br/><strong><em>Remove Selection:</em></strong> removes the highlighting from the selected node or plate of the Doodleif any.<br/><br/><h5 id="CreatingANode">Creating a node</h5>Point the mouse cursor to an empty region of the <em>Doodle</em> window and click. A new grey elipse will appear centered at the mouse cursor position. A flashing caret appears next to the blue word <em>name</em>. Typed characters will appear both at this caret and within the outline of the elipse.<br/><br/>When first created the node will be of type <em>stochastic</em> and have associated density <em>dnorm.</em><br/><br/>The type of the node can be changed by clicking on the blue word <em>type</em> at the top of the doodle. A menu will drop down giving a choice of <em>stochastic</em>, <em>logical</em> and <em>constant</em> for the node type. Constant nodes are shown as rectangular boxes.<br/><br/>The name of a node starts with a letter and can also contain digits and the period character "." The name must not contain two successive periods and must not end with a period. Vectors are denoted using a square bracket notation, with indices separated by commas. A colon-separated pair of integers is used to denote an index range of a multivariate node or plate.<br/><br/><strong>Stochastic:</strong> Associated with stochastic nodes is a density. Click on the blue word <em>density</em> to see the choice of densities available (this will not necessarily include all those available in the <em>BUGS</em> language and described in <a href="/documentation/latest/Functions.html"></a><a href="/documentation/latest/Functions.html"><font color="#0000FF" face="Arial" size="3"><u>Functions and functionals</u></font></a>). For each density the appropriate name(s) of the parameters are displayed in blue. For some densities default values of the parameters will be displayed in black next to the parameter name. When edges are created pointing into a stochastic node these edges are associated with the parameters in a left to right order. To change the association of edges with parameters click on one of the blue parameter names, a menu will drop down from which the required edge can be selected. This drop down menu will also give the option of editing the parameter's default valu<br/><br/><strong>Logical:</strong> Associated with logical nodes is a link, which can be selected by clicking on the blue word <em>link</em>. Logical nodes also require a <em>value</em> to be evaluated (modified by the chosen link) each time the value of the node is required. To type input in the value field click the mouse on the blue word <em>value</em>. The value field of a logical node corresponds to the right hand side of a logical relation in the <em>BUGS</em> language and can contain the same functions. The value field must be completed for all logical nodes.<br/><br/>We emphasise that the <em>value</em> determines the value of the node and the logical links in the Doodle are for cosmetic purposes only.<br/><br/>It is possible to define two nodes in the same Doodle with the same name - one as logical and one as stochastic - in order to use the data transformation facility described in <a href="/documentation/latest/ModelSpecification.html#DataTransformations"></a><a href="/documentation/latest/ModelSpecification.html#DataTransformations">Data transformations</a>.<br/><br/><strong>Constants:</strong> Constant nodes can be given a name or a numerical value.<br/><br/><br/><h5 id="SelectingANode">Selecting a node</h5>Point the mouse cursor inside the node and left-mouse-click.<br/><br/><br/><h5 id="DeletingANode">Deleting a node</h5>Select a node and press <em>ctrl + delete</em> key combination.<br/><br/><br/><h5 id="MovingANode">Moving a node</h5>Select a node and then point the mouse into selected node. Hold mouse button down and drag node. The cursor keys may also be used to move the centre of the node to the next snap grid point.<br/><br/><br/><h5 id="CreatingAPlate">Creating a plate</h5>Point the mouse cursor to an empty region of the <em>Doodle</em> window and click while holding the <em>Ctrl</em> key down.<br/><br/><br/><h5 id="SelectingAPlate">Selecting a plate</h5>Point the mouse into the lower or right hand border of the plate and click.<br/><br/><br/><h5 id="DeletingAPlate">Deleting a plate</h5>Select a plate and press <em>ctrl + delete</em> key combination.<br/><br/><br/><h5 id="MovingAPlate">Moving a plate</h5>Select a plate and then point the mouse into the lower or right hand border of the selected plate. Hold the mouse button down and drag the plate. The cursor keys may also be used to move the cornor of the node to the next snap grid point. If the <em>Ctrl</em> key is held down while moving a plate any nodes within the plate will move with the plate.<br/><br/><br/><h5 id="ResizingAPlate">Resizing a plate</h5>Select a plate and then point the mouse into the small region at the lower right where the two borders intercept. Hold the mouse button down and drag to resize the plate.<br/><br/><br/><h5 id="CreatingAnEdge">Creating an edge</h5>Select node into which the edge should point and then click into its parent while holding down the <em>ctrl</em> key.<br/><br/><br/><h5 id="DeletingAnEdge">Deleting an edge</h5>Select node whose incoming edge is to be deleted and then click into its parent while holding down the <em>ctrl</em> key.<br/><br/><br/><h5 id="MovingADoodle">Moving a Doodle</h5>After constructing a Doodle, it can be moved into a document that may also contain data, initial values, and other text and graphics. This can be done by choosing<em> Select Document</em> from the <em>Edit</em> menu, and then either copying and pasting, or dragging, the Doodle.<br/><br/><br/><h5 id="ResizingADoodle">Resizing a Doodle</h5>To change the size of Doodle which is already in a document containing text, click once into the Doodle with the left mouse button. A narrow border with small solid squares at the corners and mid-sides will appear. Drag one of these squares with the mouse until the Doodle is of the required size.<br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#GeneralProperties">General properties</a></li><li><a href="#CreatingANode">Creating a node</a></li><li><a href="#SelectingANode">Selecting a node</a></li><li><a href="#DeletingANode">Deleting a node</a></li><li><a href="#MovingANode">Moving a node</a></li><li><a href="#CreatingAPlate">Creating a plate</a></li><li><a href="#SelectingAPlate">Selecting a plate</a></li><li><a href="#DeletingAPlate">Deleting a plate</a></li><li><a href="#MovingAPlate">Moving a plate</a></li><li><a href="#ResizingAPlate">Resizing a plate</a></li><li><a href="#CreatingAnEdge">Creating an edge</a></li><li><a href="#DeletingAnEdge">Deleting an edge</a></li><li><a href="#MovingADoodle">Moving a Doodle</a></li><li><a href="#ResizingADoodle">Resizing a Doodle</a></li></ul></div></div></div></div></body></html>

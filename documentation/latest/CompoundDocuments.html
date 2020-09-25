@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>CompoundDocuments</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse show" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li>Compound documents</li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Compound Documents</h4><h5 id="WhatIsACompoundDocument">What is a compound document?</h5>A compound document contains various types of information (formatted text, tables, formulae, plots, graphs etc) displayed in a single window and stored in a single file. The tools needed to create and manipulate these information types are always available, so there is no need to continuously move between different programs. The <em>BUGS</em> software has been designed so that it produces output directly to a compound document and can get its input directly from a compound document. To see an example of a compound document <a href="/examples/latest/Rats.html">click here</a>. <em>BUGS</em> is written in Component Pascal using the BlackBox development framework: see http://www.oberon.ch.In <em>BUGS</em> a document can be a description of a statistical analysis, the user interface to the software, and the resulting output.<br/><br/>Compound documents are stored in binary files with the <code>.odc</code> extension.<br/><br/><br/><h5 id="WorkingWithCompoundDocuments">Working with compound documents</h5>A compound document is like a word-processor document that contains special rectangular embedded regions or elements, each of which can be manipulated by standard word-processing tools -- each rectangle behaves like a single large character, and can be focused, selected, moved, copied, deleted etc. If an element is "focused" the tools to manipulate its interior become available.<br/><br/>The <em>BUGS</em> software works with many different types of elements, the most interesting of which are Doodles, which allow statistical models to be described in terms of graphs. <em>DoodleBUGS</em> is a specialised graphics editor and is described fully in <a href="/documentation/latest/DoodleBUGS.html"><br/>DoodleBUGS: The Doodle Editor</a><a href="/documentation/latest/DoodleBUGS.html"></a>. Other elements are rather simpler and are used to display plots of an analysis.<br/><br/><h5 id="EditingCompoundDocuments">Editing compound documents</h5><em>BUGS</em> contains a built-in word processor, which can be used to manipulate any output produced by the software. If a more powerful editing tool is needed <em>BUGS</em> documents or parts of them can be pasted into a standard OLE enabled word processor.<br/><br/>Each open document either displays a caret or a selection of highlighted text. New keyboard input is inserted at the caret position. Text is selected by holding down the left mouse button while dragging the mouse over a region of text. A single word of text can be selected by double clicking on it. <em>Warning: if selection of text is highlighted and a key pressed the selection will be replaced by the character typed. (This can be un-done by selecting </em><span class="button">Undo</span><em> from the </em><span class="button">Edit</span><em> menu.).</em> The text can be unselected by pressing the <span class="button">Esc</span> key or clicking the mouse outside the highlighted selection. <br/><br/>A single embedded element can be selected by single clicking into it with the left mouse button. A selected element is distinguished by a thin bounding rectangle. If this bounding rectangle contains small solid squares at the corners and mid sides it can be resized by dragging these with the mouse. An embedded element can be "focused" by double clicking into it with the left mouse button. A focused element is distinguished by a hairy grey bounding rectangle.<br/><br/>A selection can be moved to a new position by dragging it with the mouse. To copy the selection hold down the "<font color="#008000" face="Arial" size="3">control</font>" key down while releasing the mouse button.<br/><br/>A selection can be cut to the Windows clip board by typing <font color="#008000" face="Arial" size="3">Ctrl</font> + <font color="#008000" face="Arial" size="3">X</font> or copied to the clip board by typing <font color="#008000" face="Arial" size="3">Ctrl</font> + <font color="#008000" face="Arial" size="3">C</font>. The contents of the clip board can be inserted at the current caret position by typing <font color="#008000" face="Arial" size="3">Ctrl</font> + <font color="#008000" face="Arial" size="3">V</font>. These three operations can also be performed using options in the <span class="button">Edit</span> menu.<br/><br/>These operations work across windows and across applications, and so the problem specification and the output can both be gathered into a single document. This can then be copied into another word-processor or presentation package if desired.<br/><br/>The style, size, font and colour of selected text can be changed using the <span class="button">Attributes</span> menu. The vertical offset of the selection can be changed using the <span class="button">Text</span> menu.<br/><br/>The formatting of text can be altered by embedding special elements. The most common format control is the ruler: pick the <span class="button">Show Marks</span> option in the <span class="button">Text</span> menu to see what rulers look like. The small black up-pointing triangles are tab stops, which can be moved by dragging them with the mouse and removed by dragging them outside the left or right borders of the ruler. The icons above the scale control, for example, centering and page breaks.<br/><br/><br/><h5 id="CompoundDocumentsAndEMail">Compound documents and email</h5><em>BUGS</em> compound documents contain non-ascii characters, but the <span class="button">Encode Document</span> command in the <span class="button">Tools</span> menu produces an ASCII representation of the focus document. The original document can be recovered from this encoded form by using the <span class="button">Decode</span> command of the <span class="button">Tools</span> menu. This allows, for example, Doodles to be sent by e-mail.<br/><br/><br/><h5 id="PrintingCompoundDocumentsAndDoodles">Printing compound documents</h5>These can be printed directly from the <span class="button">File</span> &gt; <span class="button">Print...</span> menu. We find it useful to have printing set up to produce pdf files. CutePDF is a freely available Windows PDF printer that does this.<br/><br/><br/><h5 id="ReadingInTextFiles">Reading in plain text files</h5> Open these using the <span class="button">File</span> &gt; <span class="button">Open...</span> menu option and pick 'txt' as the file type in the dialog box. The contents of text files can be copied into documents, or text files can be converted into odc documents by using the <span class="button">File</span> &gt; <span class="button">Save As...</span> menu option and picking 'odc' as the file type in the dialog box.<br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#WhatIsACompoundDocument">What is a compound document?</a></li><li><a href="#WorkingWithCompoundDocuments">Working with compound documents</a></li><li><a href="#EditingCompoundDocuments">Editing compound documents</a></li><li><a href="#CompoundDocumentsAndEMail">Compound documents and e-mail</a></li><li><a href="#PrintingCompoundDocumentsAndDoodles">Printing compound documents</a></li><li><a href="#ReadingInTextFiles">Reading in plain text files</a></li></ul></div></div></div></div></body></html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Kidney</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/documentation/latest/">Documentation</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/examples/latest/">Examples <span class="sr-only">(current)</span></a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Examples</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume1">Volume I</a>
+<ul class="collapse show" id="volume1">
+<li><a href="/examples/latest/Volumei.html">Contents</a></li>
+<li><a href="/examples/latest/Rats.html" title="Normal hierarchical model">Rats</a></li>
+<li><a href="/examples/latest/Pumps.html" title="Conjugate gamma-Poisson hierarchical model">Pumps</a></li>
+<li><a href="/examples/latest/Dogs.html" title="Log linear binary model">Dogs</a></li>
+<li><a href="/examples/latest/Seeds.html" title="Random effects logistic regression">Seeds</a></li>
+<li><a href="/examples/latest/Surgical.html" title="Institutional ranking">Surgical</a></li>
+<li><a href="/examples/latest/Magnesium.html" title="Meta-analysis prior sensitivity">Magnesium</a></li>
+<li><a href="/examples/latest/Salm.html" title="Extra-Poisson variation in dose-response study">Salm</a></li>
+<li><a href="/examples/latest/Equiv.html" title="Bioequivalence in a cross-over trial">Equiv</a></li>
+<li><a href="/examples/latest/Dyes.html" title="Variance components model">Dyes</a></li>
+<li><a href="/examples/latest/Stacks.html" title="Robust and ridge regression">Stacks</a></li>
+<li><a href="/examples/latest/Epil.html" title="Repeated measures on Poisson counts">Epil</a></li>
+<li><a href="/examples/latest/Blockers.html" title="Random effects meta-analysis of clinical trials">Blockers</a></li>
+<li><a href="/examples/latest/Oxford.html" title="Smooth fit to log-odds ratios in case control studies">Oxford</a></li>
+<li><a href="/examples/latest/Lsat.html" title="Latent variable models for item-response data">LSAT</a></li>
+<li><a href="/examples/latest/Bones.html" title="Latent trait model for multiple ordered categorical responses">Bones</a></li>
+<li><a href="/examples/latest/Inhalers.html" title="Random effects model for ordinal responses from a cross-over trial">Inhalers</a></li>
+<li><a href="/examples/latest/Mice.html" title="Weibull regression in censored survival analysis">Mice</a></li>
+<li>Kidney</li>
+<li><a href="/examples/latest/Leuk.html" title="Survival analysis using Cox regression">Leuk</a></li>
+<li><a href="/examples/latest/Leukfr.html" title="Cox regression with frailties">LeukFr</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume2">Volume II</a>
+<ul class="collapse" id="volume2">
+<li><a href="/examples/latest/Volumeii.html">Contents</a></li>
+<li><a href="/examples/latest/Dugongs.html" title="A nonconjugate, nonlinear model">Dugongs</a></li>
+<li><a href="/examples/latest/Otrees.html" title="A hierarchical, nonlinear model">Orange trees</a></li>
+<li><a href="/examples/latest/OtreesMVN.html" title="A hierarchical, nonlinear model">MV Orange trees</a></li>
+<li><a href="/examples/latest/Biopsies.html" title="Latent class model">Biopsies</a></li>
+<li><a href="/examples/latest/Eyes.html" title="Normal mixture model">Eyes</a></li>
+<li><a href="/examples/latest/Hearts.html" title="A mixture model for count data">Hearts</a></li>
+<li><a href="/examples/latest/Air.html" title="Covariate measurement error">Air</a></li>
+<li><a href="/examples/latest/Cervix.html" title="Case-control study with errors in covariates">Cervix</a></li>
+<li><a href="/examples/latest/Jaws.html" title="Repeated measures analysis of variance">Jaw</a></li>
+<li><a href="/examples/latest/BiRats.html" title="A bivariate Normal hierarchical model">Birats</a></li>
+<li><a href="/examples/latest/Schools.html" title="Multivariate hierarchical model of examination results">Schools</a></li>
+<li><a href="/examples/latest/Ice.html" title="Non-parametric smoothing in an age-cohort model">Ice</a></li>
+<li><a href="/examples/latest/Beetles.html" title="Logistic, probit and extreme value models">Beetles</a></li>
+<li><a href="/examples/latest/Alligators.html" title="Multinomial logistic model">Alligators</a></li>
+<li><a href="/examples/latest/Endo.html" title="Conditional inference in case-control studies">Endo</a></li>
+<li><a href="/examples/latest/Stagnant.html" title="A change point problem">Stagnant</a></li>
+<li><a href="/examples/latest/Asia.html" title="An expert system">Asia</a></li>
+<li><a href="/examples/latest/Pigs.html" title="Genetic counseling and pedigree analysis">Pigs</a></li>
+<li><a href="/examples/latest/t-df.html" title="Degree of freedom of a t distribution">Simulating data</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume3">Volume III</a>
+<ul class="collapse" id="volume3">
+<li><a href="/examples/latest/Volumeiii.html">Contents</a></li>
+<li><a href="/examples/latest/Camel.html" title="Multivariate normal with structured missing data">Camel</a></li>
+<li><a href="/examples/latest/Eyetracking.html" title="Dirichlet process prior">Eye Tracking</a></li>
+<li><a href="/examples/latest/Fire.html" title="Data distribution using dloglik">Fire insurance claims</a></li>
+<li><a href="/examples/latest/Funshapes.html" title="General constraints">Fun Shapes</a></li>
+<li><a href="/examples/latest/Hepatitis.html" title="Random effects model with measurement error">Hepatitis</a></li>
+<li><a href="/examples/latest/Hips1.html" title="Deterministic cost-effectiveness model">Hips1</a></li>
+<li><a href="/examples/latest/Hips2.html" title="Stochastic cost-effectiveness model">Hips2</a></li>
+<li><a href="/examples/latest/Hips3.html" title="Cost-effectiveness model">Hips3</a></li>
+<li><a href="/examples/latest/Hips4.html" title="Cost-effectiveness model">Hips4</a></li>
+<li><a href="/examples/latest/Jama.html" title="Radio carbon dating with phase information">Jama</a></li>
+<li><a href="/examples/latest/Pigweights.html" title="Smoothed histogram">Pig Weights</a></li>
+<li><a href="/examples/latest/Pines.html" title="Bayes factors using pseudo priors">Pines</a></li>
+<li><a href="/examples/latest/StVeit.html" title="Radio carbon dating with stratification">St Veit</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume4">Volume IV</a>
+<ul class="collapse" id="volume4">
+<li><a href="/examples/latest/Volumeiv.html">Contents</a></li>
+<li><a href="/examples/latest/SeedsDataCloning.html" title="Estimating MLEs">Seeds</a></li>
+<li><a href="/examples/latest/Coins.html" title="The ABC">Coins</a></li>
+<li><a href="/examples/latest/SmartPhones.html" title="A bootstrap approach">Smart phones</a></li>
+<li><a href="/examples/latest/Abbey.html" title="Share prices a stable approach">Abbey</a></li>
+<!--<li><a href="/examples/latest/BeetlesMLE.html" title="Differential evolution and MLEs">Beetles</a></li>-->
+<li><a href="/examples/latest/BeetlesProbit.html" title="Probit regression and censoring">Beetles</a></li>
+<li><a href="/examples/latest/Preeclampsia.html" title="A multistage approach">Preeclampsia</a></li>
+<li><a href="/examples/latest/Lotka-Volterra.html" title="A simple ODE model">Lotka-Volterra</a></li>
+<li><a href="/examples/latest/FiveCompartment.html" title="A complex ODE model">Five compartment</a></li>
+<li><a href="/examples/latest/ChangePoints.html" title="An ODE model with change points">Change points</a></li>
+<li><a href="/examples/latest/Pollution.html" title="An autoregressive time series model">Pollution</a></li>
+<li><a href="/examples/latest/Methadone.html" title="A large e-health random effects model">Methadone</a></li>
+<li><a href="/examples/latest/Functionals.html" title="Integration and algebraic equations">Functionals</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#ecology">Ecology</a>
+<ul class="collapse" id="ecology">
+<li><a href="/examples/latest/VolumeEco.html">Contents</a></li>
+<li><a href="/examples/latest/Gentians.html" title="Imperfect detection in site occppancy">Gentians</a></li>
+<li><a href="/examples/latest/Sparrowhawk.html" title="Generalised metapopulation model">Sparrowhawks</a></li>
+<li><a href="/examples/latest/Birds.html" title="Estimating species richness">Birds</a></li>
+<li><a href="/examples/latest/Lizards.html" title="Mixture model for abundance with imperfect detection">Lizards</a></li>
+<li><a href="/examples/latest/Voles.html" title="Estimating size of closed population">Voles</a></li>
+<li><a href="/examples/latest/Impala.html" title="Distance sampling">Impala</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/examples/latest/spatial/Examples.html">Contents</a></li>
+<li><a href="/examples/latest/spatial/Scotland.html" title="Lip cancer in Scotland">Conditional Autoregressive (CAR) models for disease mapping</a></li>
+<li><a href="/examples/latest/spatial/LHA.html" title="Lung cancer in a London Health Authority">Convolution priors</a></li>
+<li><a href="/examples/latest/spatial/Scotland1.html" title="Lip cancer revisited">Proper CAR model</a></li>
+<li><a href="/examples/latest/spatial/Elevation.html" title="Surface elevation">Bayesian kriging and spatial prediction</a></li>
+<li><a href="/examples/latest/spatial/Forest.html" title="Distribution of hickory trees in Duke forest">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Huddersfield.html" title="Ecological regression of air pollution and respiratory illness in children">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Shared.html" title="Oral cavity cancer and lung cancer in West Yorkshire (UK)">Shared component for mapping multiple diseases</a></li>
+<li><a href="/examples/latest/spatial/Pollution.html">Random walk priors for temporal smoothing of daily air pollution estimates</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/examples/latest/reliability/Vol.html">Contents</a></li>
+<li><a href="/examples/latest/reliability/BS_Ex.html" title="'psi31' data from B&amp;S(1969)">Birnbuam-Saunders model</a></li>
+<li><a href="/examples/latest/reliability/BurrX_Ex.html" title="'Ball bearing' data from Lawless(2003)">BurrX model</a></li>
+<li><a href="/examples/latest/reliability/BurrXII_Ex.html" title="Simulated example ">BurrXII model</a></li>
+<li><a href="/examples/latest/reliability/ExpoWeibull_Ex.html" title="Carbon Fibres data from Nichols and Padgett (2006) ">Two Parameter Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/ExpPower_Ex.html" title="'Simulated data">Exponential Power model</a></li>
+<li><a href="/examples/latest/reliability/Ext_exponential_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006)">Marshal-Olkin Extended Exponential (MOEE) model</a></li>
+<li><a href="/examples/latest/reliability/Ext_Weibull_Ex.html" title="'Device failure times data' from Meeker and Escobar(1998)">Marshal-Olkin Extended Weibull model</a></li>
+<li><a href="/examples/latest/reliability/FlexibleWeibull_Ex.html" title="'Reactor pump failure data' from Bebbinton, Lai, and Zitikis(2007)">Flexible Weibull model</a></li>
+<li><a href="/examples/latest/reliability/GenExponential_Cen_Ex.html" title="'Ball bearing' data from Lawless(2003)">Censored Generalized Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Gompertz_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gompertz model</a></li>
+<li><a href="/examples/latest/reliability/GPWeibull_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006) ">Two Parameter (GP) Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/Gumbel_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gumbel model</a></li>
+<li><a href="/examples/latest/reliability/Inv_Weibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Inverse Weibull model</a></li>
+<li><a href="/examples/latest/reliability/InvGaussian_Ex.html" title="'Transceiver data' from Chikara and Folks (9177)">Inverse Gaussian model</a></li>
+<li><a href="/examples/latest/reliability/LinearFailure_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Linear Failure Rate (LFR) model</a></li>
+<li><a href="/examples/latest/reliability/LogisticExponential_Ex.html" title="'Naval logistics' data from Yan and Leemis (2008)">Logistic-Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Loglogistic_Ex.html" title="Simulated data">Log-Logistic model</a></li>
+<li><a href="/examples/latest/reliability/LogWeibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Log-Weibull model</a></li>
+<li><a href="/examples/latest/reliability/ModifiedWeibull_Ex.html" title="Data from Aarset(1987)">Modified Weibull model</a></li>
+<li><a href="/examples/latest/reliability/WeibullShifted_Ex.html" title="Simulated data">Weibull-shifted model</a></li>
+</ul>
+</li>
+</li></li></li></li></ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Kidney: Weibull regression with random efects</h4>McGilchrist and Aisbett (1991) analyse time to first and second recurrence of infection in kidney patients on dialysis using a Cox model with a multiplicative frailty parameter for each individual. The risk variables considered are age, sex and underlying disease (coded other, GN, AN and PKD). A portion of the data are shown below.<br/></p><center><br/><font color="#000100" face="Arial" size="2"><img alt="[kidney1]" src="kidney1.bmp"/></font><br/></center><br/>We have analysed the same data assuming a parametric Weibull distribution for the survivor function, and including an additive random effect b<sub>i</sub> for each patient in the exponent of the hazard model as follows<br/><br/>   t<font color="#000100" face="Arial" size="2"><sub>ij</sub></font><sub> </sub>~ Weibull(r, <font>μ</font><font color="#000100" face="Arial" size="2"><sub>ij</sub></font>) i = 1,...,38; j = 1,2<br/>   <br/>   log<font>μ</font><font color="#000100" face="Arial" size="2"><sub>ij</sub></font> = <font>α</font> + <font>β</font><font color="#000100" face="Arial" size="2"><sub>age</sub></font>AGE<font color="#000100" face="Arial" size="2"><sub>ij</sub></font> + <font>β</font><font color="#000100" face="Arial" size="2"><sub>sex</sub></font>SEX<font color="#000100" face="Arial" size="2"><sub>i</sub></font> + <font>β</font><font color="#000100" face="Arial" size="2"><sub>disease1</sub></font>DISEASE<font color="#000100" face="Arial" size="2"><sub>i1</sub></font> +<br/>               <font>β</font><font color="#000100" face="Arial" size="2"><sub>disease2</sub></font>DISEASE<font color="#000100" face="Arial" size="2"><sub>i2</sub></font> + <font>β</font><font color="#000100" face="Arial" size="2"><sub>disease3</sub></font>DISEASE<font color="#000100" face="Arial" size="2"><sub>i3</sub></font> + b<font color="#000100" face="Arial" size="2"><sub>i</sub></font><br/>               <br/>   b<font color="#000100" face="Arial" size="2"><sub>i</sub></font> ~ Normal(0, <font>τ</font>)<br/>   <br/>where AGE<font color="#000100" face="Arial" size="2"><sub>ij</sub></font> is a continuous covariate, SEX<sub>i</sub> is a 2-level factor and DISEASE<font color="#000100" face="Arial" size="2"><sub>ik</sub></font> (k = 1,2,3) are dummy variables representing the 4-level factor for underlying disease. Note that the the survival distribution is a truncated Weibull for censored observations as discussed in the mice example. The regression coefficients and the precision of the random effects <font>τ</font> are given independent ``non-informative'' priors, namely   <br/><br/>   b<font color="#000100" face="Arial" size="2"><sub>k</sub></font> ~ Normal(0, 0.0001)<br/>   <br/>   <font>τ</font> ~ Gamma(0.0001, 0.0001)<br/>   <br/>The shape parameter of the survival distribution r is given a Gamma(1, 0.0001) prior which is slowly decreasing on the positive real line.<br/><br/>The graphical model and <em>BUGS</em> language are given below. <br/><center><em>Graphical model for kidney example:</em>   <img alt="[kidney2]" src="kidney2.bmp"/><br/>BUGS<em> language for kidney example</em><br/><br/></center>   model<br/>   {<br/>      for (i in 1 : N) {<br/>         for (j in 1 : M) {<br/>   # Survival times bounded below by censoring times:<br/>            t[i,j] ~ dweib(r, mu[i,j])C(t.cen[i, j], );<br/>            log(mu[i,j ]) &lt;- alpha + beta.age * age[i, j] <br/>                  + beta.sex *sex[i] <br/>                  + beta.dis[disease[i]] + b[i];<br/>         }<br/>   # Random effects:<br/>         b[i] ~ dnorm(0.0, tau) <br/>      }<br/>   # Priors:<br/>      alpha ~ dnorm(0.0, 0.0001);<br/>      beta.age ~ dnorm(0.0, 0.0001);<br/>      beta.sex ~ dnorm(0.0, 0.0001);<br/>   #   beta.dis[1] &lt;- 0; # corner-point constraint<br/>      for(k in 2 : 4) {<br/>         beta.dis[k] ~ dnorm(0.0, 0.0001);<br/>      }<br/>      tau ~ dgamma(1.0E-3, 1.0E-3);<br/>      r ~ dgamma(1.0, 1.0E-3); <br/>      sigma &lt;- 1 / sqrt(tau); # s.d. of random effects<br/>   }<br/><br/><a href="/examples/latest/Kidneydata.html"></a><div><h5>Data</h5><details><code>
+list(N = 38, M = 2,<br/>   t = structure(<br/>   .Data = c( 8, 16,<br/>   23, NA,<br/>   22, 28,<br/>   447, 318,<br/>30, 12,<br/>24, 245,<br/>7, 9,<br/>511, 30,<br/>53, 196,<br/>15, 154,<br/>7, 333,<br/>141, NA,<br/>96, 38,<br/>NA, NA,<br/>536, NA,<br/>17, NA,<br/>185, 177,<br/>292, 114,<br/>NA, NA,<br/>15, NA,<br/>152, 562,<br/>402, NA,<br/>13, 66,<br/>39, NA,<br/>12, 40,<br/>NA, 201,<br/>132, 156,<br/>34, 30,<br/>2, 25,<br/>130, 26,<br/>27, 58,<br/>NA, 43,<br/>152, 30,<br/>190, NA,<br/>119, 8,<br/>NA, NA,<br/>NA, 78,<br/>63, NA), .Dim = c(38, 2)),<br/>t.cen = structure(<br/>   .Data = c( 0, 0,<br/>0, 13,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 8,<br/>0, 0,<br/>149, 70,<br/>0, 25,<br/>0, 4,<br/>0, 0,<br/>0, 0,<br/>22, 159,<br/>0, 108,<br/>0, 0,<br/>0, 24,<br/>0, 0,<br/>0, 46,<br/>0, 0,<br/>113, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>0, 0,<br/>5, 0,<br/>0, 0,<br/>0, 5,<br/>0, 0,<br/>54, 16,<br/>6, 0,<br/>0, 8), .Dim = c(38, 2)),<br/>age = structure(<br/>   .Data = c(28, 28,<br/>48, 48,<br/>32, 32,<br/>31, 32,<br/>10, 10,<br/>16, 17,<br/>51, 51,<br/>55, 56,<br/>69, 69,<br/>51, 52,<br/>44, 44,<br/>34, 34,<br/>35, 35,<br/>42, 42,<br/>17, 17,<br/>60, 60,<br/>60, 60,<br/>43, 44,<br/>53, 53,<br/>44, 44,<br/>46, 47,<br/>30, 30,<br/>62, 63,<br/>42, 43,<br/>43, 43,<br/>57, 58,<br/>10, 10,<br/>52, 52,<br/>53, 53,<br/>54, 54,<br/>56, 56,<br/>50, 51,<br/>57, 57,<br/>44, 45,<br/>22, 22,<br/>42, 42,<br/>52, 52,<br/>60, 60), .Dim = c(38, 2)),<br/>      beta.dis = c(0, NA, NA, NA),<br/>sex = c(0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, <br/>   0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0),    <br/>disease = c(1, 2, 1, 1, 1, 1, 2, 2, 3, 2, 3, 1, 3, 3, 1, 3, 1, 1,2, 1, 4, 1, 3, 3,<br/>            3, 3, 2, 3, 2, 2, 3, 3, 4, 2, 1, 1, 4, 4))
+</code></details></div><a href="/examples/latest/Kidneyinits.html"></a><div><h5>Inits for chain 1</h5><code>
+list(beta.age = 0, beta.sex = 0, beta.dis=c(NA,0,0,0), <br/>alpha = 0, r=1, tau=0.3)
+</code></div>    <a href="/examples/latest/Kidneyinits1.html"></a><div><h5>Inits for chain 2</h5><code>
+list(beta.age = -1, beta.sex = 1, beta.dis=c(NA,1,1,1), <br/>alpha = 1, r=1.5, tau=1)
+</code></div><font color="#0000FF" face="Arial" size="5">Results</font><br/><img alt="[kidney3]" src="kidney3.bmp"/>
+
+<p></p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5></div></div></div></div></body></html>

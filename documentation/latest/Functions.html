@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Functions</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse show" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li>Functions and functionals</li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Functions and functionals</h4><h5 id="Introduction">Introduction</h5><br/><br/>Function arguments represented by <code>e</code> can be <a href="/documentation/latest/ModelSpecification.html#expression"></a><a href="/documentation/latest/ModelSpecification.html#expression"><font color="#0000FF" face="Arial" size="3">expressions</font></a>, those by <code>s</code> must be scalar-valued nodes in the graph and those represented by <code>v</code> must be vector-valued nodes in a graph. Some function arguments must be stochastic nodes. Functionals are described using a similar notation to functions, the special notation <code>F(x)</code> is used to describe the function on which the functional acts. See example <a href="/examples/latest/Functionals.html">Functionals</a><a href="/examples/latest/Functionals.html"></a> for details.<br/><br/>Systems of ordinary differential equations and their solution can be described in the BUGS language by using the special <code>D(x[1:n], t)</code> notation. See example <a href="/examples/latest/Sixcomp.html">ode</a> for details. <br/><br/><h5 id="ScalarFunctions">Scalar functions</h5><br/><br/><code>abs(e)</code>   absolute value of e, |e|<br/><br/><code>arccos(e)</code>   inverse cosine of e<br/><br/><code>arccosh(e)</code>   inverse hyperbolic cosine of e<br/><br/><code>arcsin(e)</code>   inverse sine of e<br/><br/><code>arcsinh(e)</code>   inverse hyperbolic sine of e<br/><br/><code>arctan(e)</code>   inverse tangent of e<br/><br/><code>arctanh(e)</code>   inverse hyperbolic tangent of e<br/><br/><code>cloglog(e)</code>   complementary log log of e, ln(-ln(1 - <em>e</em>))<br/><br/><code>cos(e)</code>   cosine of e<br/><br/><code>cosh(e)</code>   hyperbolic cosine of e<br/><br/><code>cut(e)</code>   <a id="CutFunction">cuts</a> edges in the graph - see <a href="/documentation/latest/Tricks.html#UseOfTheCutFunction">Tip and tricks</a><a href="/documentation/latest/Tricks.html#UseOfTheCutFunction"></a> page for details.<br/><br/><code>equals(e1, e2)</code>   1 if <em>value of e</em>1 equals value of <em>e</em>2; 0 otherwise<br/><br/><code>exp(e)</code>   exp(<em>e</em>)<br/><br/><code>gammap(s1, s2)</code>   partial (incomplete) gamma function, value of standard gamma density with parameter s1 integrated up to s2<br/><br/><code>ilogit(e)</code>   exp(<em>e) </em>/ (1 + exp(<em>e</em>))<br/><font color="#000000" face="Arial" size="2"><sub><br/></sub></font><code>icloglog(e)</code>   1 - exp( - exp(<em>e</em>))<br/><br/><code>integral(F(s), s1, s2, s3)</code>   definite integral of function F(s) between s = s1 and s = s2 to accuracy s3<br/><br/><code>log(e)</code>   natural logarithm of e<br/><br/><code>logfact(e)</code>   ln(<em>e</em>!)<br/><br/><code>loggam(e)</code>   logarithm of gamma function of e<br/><br/><code>logit(e)</code>   ln(<em>e </em>/ (1 - <em>e</em>))<br/><br/><code>max(e1, e2)</code>   e1 if e1 &gt; e2; e2 otherwise<br/><br/><code>min(e1, e2)</code>e1 if e1 &lt; e2; e2 otherwise<br/><br/><code>phi(e)</code>   standard normal cdf<br/><br/><code>post.p.value(s)</code><sup>   </sup>s must be a stochastic node, returns one if a sample from the prior is less than the value of s<br/><br/><code>pow(e1, e2)</code>   e1<font color="#000100" face="Arial" size="2"><sup>e2</sup></font> <br/><br/><code>prior.p.value(s)</code><sup>   </sup>s must be a stochastic node, returns one if a sample from the prior after resampling its stochastic parents is less than value of s.<br/><br/><code>probit(e)</code>   inverse of <code>phi(e)</code><br/><br/><code>replicate.post(s)</code>   replicate from distribution of s, s must be stochastic node<br/><br/><code>replicate.prior.(s)</code>   replicate from distribution of s after replicating from it parents if they are stochastic, s must be stochastic node<br/><br/><code>round(e)</code>nearest integer to e<br/><br/><code>sin(e)</code>   sine of e<br/><br/><code>sinh(e)</code>   hyperbolic sine of e<br/><br/><code>solution(F(s), s1, s2, s3)</code>   a solution of equation F(s) = 0 lying between s = s1 and s = s2 to accuracy s3, s1 and s2 must bracket a solution<br/><code><sup>sqrt(e)</sup></code>e<font color="#000100" face="Arial" size="1"><sup>1/2</sup></font> <font color="#000100" face="Arial" size="1"><sup><br/></sup></font><code>step(e)</code>1 if <em>e</em> &gt;= 0; 0 otherwise<br/><br/><code>tan(e)</code>   tangent of e<br/><br/><code>tanh(e)</code>   hyperbolic tangent of e<br/><code>trunc(e)</code>greatest integer less than or equal to e<br/><br/><h5 id="VectorFunctions">Vector functions</h5><br/><br/><code>inprod(v1, v2)</code>   inner product <font>Σ</font><font color="#000100" face="Arial" size="1"><sub>i</sub></font> v<font color="#000100" face="Arial" size="1"><sub>1i</sub></font> v<font color="#000100" face="Arial" size="1"><sub>2i </sub></font>of v1 and v2 <br/><code>interp.lin(e, v1, v2)</code>   <a id="InterpLinFunction">Given</a> function values in the vector v2 evaluated at the points in v1, this estimates the function value at a new point e by simple linear interpolation using the closest bounding pair of points. For example, given the population in 1991,2001 and 2011, we might want to estimate the population in 2004. Specifically, v<font color="#000000" face="Arial" size="2">2</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="2"> + (</font>v<font color="#000000" face="Arial" size="2">2</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>+</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>1</sub></font><font color="#000000" face="Arial" size="2"> - </font>v<font color="#000000" face="Arial" size="2">2</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="2">) * (</font>e - v<font color="#000000" face="Arial" size="2">1</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="2">) / (</font>v<font color="#000000" face="Arial" size="2">1</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>+</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>1</sub></font><font color="#000000" face="Arial" size="2"> - </font>v<font color="#000000" face="Arial" size="2">1</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="2">)</font>, where p is such that <em>v</em><font color="#000000" face="Arial" size="2">1</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="2"> &lt; </font><em>e</em><font color="#000000" face="Arial" size="2"> &lt; </font><em>v</em><font color="#000000" face="Arial" size="2">1</font><font color="#000000" face="Arial" size="1"><sub>p</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>+</sub></font><font color="#000000" face="Arial" size="1"><sub> </sub></font><font color="#000000" face="Arial" size="1"><sub>1</sub></font> and the elements of v1 are in ascending order<br/><code>inverse(v)</code>   inverse of symmetric positive-definite matrix v<br/><br/><code>logdet(v)</code>   log of determinant of v for symmetric positive-definite <em>v</em><br/><br/><code>mean(v)</code>   <font>Σ</font><font color="#000100" face="Arial" size="1"><sub>i</sub></font> v<font color="#000100" face="Arial" size="1"><sub>i</sub></font> / n, where n = dim(v)<br/><br/><code>eigen.vals(v)</code>   eigenvalues of matrix v<br/><br/><code>ode(v1, </code><code><sup>v2, D(v3, s1), s2, s3)</sup></code>   solution of system of ordinary differential equations at grid of points v2 given initial values v1 at time s2 solved to accuracy s3. v3 is a vector of components of the system of ode and s1 is the time variable. See the PDF files in the Diff/Docu directory of the BUGS installation for further details.<br/><br/><code>prod(v)</code>   <font>Π</font><font color="#000100" face="Arial" size="1"><sub>i</sub></font> v<font color="#000100" face="Arial" size="1"><sub>i</sub></font> <br/><br/><code><sup>p.valueM(v)</sup></code><sup>   </sup>v must be a multivariate stochastic node, returns a vector of ones and zeros depending on if a sample from the prior is less than value of the corresponding component of v<br/><br/><code>rank(v, s)</code>number of components of vless than or equal to s<font color="#000100" face="Arial" size="1"><sub><br/></sub></font><code><sup>ranked(v, s)</sup></code>the <em>s</em><font color="#000100" face="Arial" size="1"><sup>th</sup></font>smallest component of v<br/><br/><code>replicate.postM(v)</code>   replicate from multivariate distribution of v, v must be stochastic and multivariate<br/><br/><code>sd(v)</code>   standard deviation of components of <em>v</em> (n - 1 in denominator)<br/><br/><code>sort(v)</code>   vector v sorted in ascending order<br/><br/><code>sum(v)</code>   <font>Σ</font><font color="#000100" face="Arial" size="1"><sub>i</sub></font> v<font color="#000100" face="Arial" size="1"><sub>i</sub></font><br/><font color="#000100" face="Arial" size="1"><sub><br/><br/></sub></font><h5 id="PropertiesOfDistributions">Properties of distributions</h5><br/><br/>The cumulative distribution function (CDF), probability density function (PDF) and deviance for the distributions available in BUGS can be calculated using the <code>cdf.dist</code>, <code>pdf.dist</code> and <code>dev.dist </code>family of functions, where <code>dist </code>corresponds to one of the distributions listed above. The first argument of each function is the value at which to evaluate the function. The other arguments are the parameters of the distribution itself. For example, for the normal distribution:<br/><code>cdf.norm(s, mu, tau)</code>   cumulative distribution function at the value of <code>s</code> for a normal distribution with parameters <code>mu</code> and <code>tau</code><br/><code>pdf.norm(s, mu, tau)</code>   probability density of distribution at value of s for a normal distribution with parameters <code>mu</code> and <code>tau</code><br/><code>dev.norm(s, mu tau)</code>   deviance of distribution at value of s for a normal distribution with parameters <code>mu</code> and <code>tau</code><br/><br/>The following cumulative distribution functions are available: <code>cdf.bern</code>, <code>cdf.beta</code>, <code>cdf.bin</code>, <code>cdf.cat</code>, <code>cdf.chisqr</code>, <code>cdf.dexp</code>, <code>cdf.exp</code>, <code>cdf.f</code>, <code>cdf.gamma</code>, <code>cdf.ggamma</code>, <code>cdf.geom0</code>, <code>cdf.geom1</code>, <code>cdf.hyper</code>, <code>cdf.lnorm</code>, <code>cdf.logis</code>, <code>cdf.negbin</code>, <code>cdf.norm</code>, <code>cdf.par</code>, <code>cdf.pois</code>, <code>cdf.polygene</code>, <code>cdf.t</code>, <code>cdf.trap</code>, <code>cdf.triang</code>, <code>cdf.unif</code>, <code>cdf.weib</code>, <code>cdf.weib3</code>, <code>cdf.gev</code>, <code>cdf.gpar. </code>No cumulative distribution function is available for flat (<code>dflat</code>), generic (<code>dloglik</code>), stable (<code>dstable</code>) or Zipf (<code>dzipf</code>) distributions.<br/><br/>The following probability density functions are available for univariate distributions:<code> pdf.bern</code>, <code>pdf.beta</code>, <code>pdf.bin</code>, <code>pdf.cat</code>, <code>pdf.chisqr</code>, <code>pdf.dexp</code>, <code>pdf.exp</code>, <code>pdf.f</code>, <code>pdf.flat</code>, <code>pdf.gamma</code>, <code>pdf.ggamma</code>, <code>pdf.geom0</code>, <code>pdf.geom1</code>, <code>pdf.hyper</code>, <code>pdf.lnorm</code>, <code>pdf.logis</code>, <code>pdf.negbin</code>, <code>pdf.norm</code>, <code>pdf.par</code>, <code>pdf.pois</code>, <code>pdf.polygene</code>, <code>pdf.t</code>, <code>pdf.trap</code>, <code>pdf.triang</code>, <code>pdf.unif</code>, <code>pdf.weib</code>, <code>pdf.weib3</code>, <code>pdf.gev</code>, <code>pdf.gpar</code>, <code>pdf.zipf. </code>No probability distribution function is available for generic (<code>dloglik</code>) or stable (<code>dstable</code>) distributions.<br/><br/>For multivariate distributions the following probability density functions are available:<code> pdf.dirich</code>, <code>pdf.multi</code>, <code>pdf.mnorm</code>, <code>pdf.mt</code>, <code>pdf.wish</code><br/><br/>The following functions calculate the deviance of the corresponding distribution: <code>dev.bern</code>, <code>dev.beta</code>, <code>dev.bin</code>, <code>dev.cat</code>, <code>dev.chisqr</code>, <code>dev.dexp</code>, <code>dev.exp</code>, <code>dev.f</code>, <code>dev.flat</code>, <code>dev.gamma</code>, <code>dev.ggamma</code>, <code>dev.geom0</code>, <code>dev.geom1</code>, <code>dev.hyper</code>, <code>dev.lnorm</code>, <code>dev.logis</code>, <code>dev.negbin</code>, <code>dev.norm</code>, <code>dev.par</code>, <code>dev.pois</code>, <code>dev.polygene</code>, <code>dev.t</code>, <code>dev.trap</code>, <code>dev.triang</code>, <code>dev.unif</code>, <code>dev.weib</code>, <code>dev.weib3</code>, <code>dev.gev</code>, <code>dev.gpar</code>, <code>dev.zipf. </code>No deviance function is available for generic (<code>dloglik</code>) or stable (<code>dstable</code>) distributions.<br/><br/>For multivariate distributions, the following functions calculate deviance: <code>dev.dirich</code>, <code>dev.multi</code>, <code>dev.mnorm</code>, <code>dev.mt</code>, <code>dev.wish</code>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#ScalarFunctions">Scalar functions</a></li><li><a href="#VectorFunctions">Vector functions</a></li><li><a href="#PropertiesOfDistributions">Properties of distributions</a></li></ul></div></div></div></div></body></html>

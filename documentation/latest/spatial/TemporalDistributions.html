@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>TemporalDistributions</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse show" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li>Temporal distributions</li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Temporal distributions</h4><h5 id="rw">Temporal smoothing with car.normal</h5><br/><br/>In one dimension, the intrinsic Gaussian CAR distribution reduces to a Gaussian random walk (see e.g.Fahrmeir and Lang, 2001). Assume we have a set of temporally correlated random effects <font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font>, t=1,..., T (where T is the number of equally-spaced time points). In the simplest case of a random walk of order 1, RW(1), we may write<br/><br/><font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal <font>( θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>, <font>φ</font> ) for t = 1<br/>~ Normal <font>( (θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>)/2, <font>φ</font> / 2 ) for t = 2, ...., T-1<br/>~ Normal <font>( θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font>, <font>φ</font> ) for t = T<br/><br/>where <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>denotes all elements of <font><strong>θ</strong></font>except the <font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font>. This is equivalent to specifying <br/><br/><font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal <font>( Σ</font><font color="#000100" face="Arial" size="2"><sub>k</sub></font> C<font color="#000100" face="Arial" size="2"><sub>tk</sub></font><font> θ</font><font color="#000100" face="Arial" size="2"><sub>k</sub></font>, <font>φ</font> M<font color="#000100" face="Arial" size="2"><sub>tt</sub></font>) for t = 1, ..., T<br/><br/>where C<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> / W<font color="#000100" face="Arial" size="2"><sub>t+</sub></font>, W<font color="#000100" face="Arial" size="2"><sub>t+</sub></font> = <font>Σ</font><font color="#000100" face="Arial" size="2"><sub>k</sub></font> W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> and W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = 1 if k = (t-1) or (t+1) and 0 otherwise; M<font color="#000100" face="Arial" size="2"><sub>tt</sub></font> = 1/W<font color="#000100" face="Arial" size="2"><sub>t+</sub></font>. Hence the RW(1) prior may be fitted using the <code>car.normal</code> distribution in WinBUGS, with appropriate specification of the weight and adjacency matrices, and num vector (see the <a href="/examples/latest/spatial/Pollution.html">Air Pollution Example</a><a href="/examples/latest/spatial/Pollution.html"></a>) <sub><br/></sub><br/>A second order random walk prior is defined as<br/><br/><font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal <font>( </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>, <font>φ</font> ) for t = 1<br/>~ Normal <font>( </font>(2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>)/5, <font>φ</font> / 5 ) for t = 2 <br/>~ Normal <font>( (-θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>)/6, <font>φ</font> / 6 ) for t = 3, ...., T-2<br/>~ Normal <font>( (-θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><sub> </sub><font>+ 4θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>)/5, <font>φ</font> / 5 ) for t = T-1<br/>~ Normal <font>( -θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><font>+ </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font>, <font>φ</font> ) for t = T<br/><br/>Again this is equivalent to specifying <br/><br/><font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal <font>( Σ</font><font color="#000100" face="Arial" size="2"><sub>k</sub></font> C<font color="#000100" face="Arial" size="2"><sub>tk</sub></font><font> θ</font><font color="#000100" face="Arial" size="2"><sub>k</sub></font>, <font>φ</font> M<font color="#000100" face="Arial" size="2"><sub>tt</sub></font>) for t = 1, ..., T<br/><br/>where C<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> is defined as above, but this time with W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = <font>-</font>1 if k = (t-2) or (t+2), W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = 4 if k = (t-1) or (t+1) and t in (3, T-2), W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = 2 if k = (t-1) or (t+1) and t = 2 or T-1, W<font color="#000100" face="Arial" size="2"><sub>tk</sub></font> = 0 otherwise; M<font color="#000100" face="Arial" size="2"><sub>tt</sub></font> = 1/W<font color="#000100" face="Arial" size="2"><sub>t+</sub></font>. <br/><br/>Note that if the observed time points are not equally spaced, it is necessary to include missing values (NA) for the intermediate time points (see the <a href="/examples/latest/spatial/Pollution.html">Air Pollution Example</a><a href="/examples/latest/spatial/Pollution.html"></a>). 
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#rw">Temporal smoothing with car.normal</a></li></ul></div></div></div></div></body></html>

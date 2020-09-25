@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>TextMenu</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse show" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li>Text</li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Text Menu</h4><h5 id="GeneralProperties"></h5><h5 id="GeneralProperties">General properties</h5>The commands in this menu provide tools for searching for and replacing text and inserting special formatting options into the text.<br/><br/><br/><h5 id="FindReplace">Find/Replace...</h5>This command is used to find and replace text. It causes a non modal dialog box to pop up.<br/><font color="#0000FF" face="Arial" size="3"><br/>         <img alt="[textmenu1]" src="textmenu1.bmp"/><br/>         <br/></font>The 'Find' field contains the text to be searched for. If a stretch of text is highlighted before this dialog is opened this will appear in the 'Find' field. The 'Repl.' field is the text that will be substituted for the text in the 'Find' field if the 'Replace', 'Repl. &amp; Find' or 'Repl. All In Sel.' buttons are clicked. 'Repl. &amp; Find' will also find the next occurrence of the 'Find' text. 'Repl. All In Sel.' will replace all occurrences of the 'Find' text that are within the highlighted section of text in the window.<br/><br/><h5 id="FindAgain">Find Again</h5>This command finds the next occurrence of a highlighted piece of text in the document.<br/><br/><h5 id="FindPrevious">Find Previous</h5>This command finds the previous occurrence of a highlighted piece of text in the document.<br/><br/><h5 id="FindFirst">Find First</h5>This command finds the first occurence of a highlighted piece of text in the document.<br/><br/><br/><h5 id="FindLast">Find Last</h5>This command finds the last occurence of a highlighted piece of text in the document.<br/><br/><br/><h5 id="ShiftLeft">Shift Left</h5>This command shifts the highlighted text one tab stop to the left.<br/><br/><br/><h5 id="ShiftRight">Shift Right</h5>This command shifts the highlighted text one tab stop to the right.<br/><br/><br/><h5 id="InsertParagraph">Insert Paragraph</h5><br/><br/><br/><h5 id="InsertRuler">Insert Ruler</h5>This command inserts a ruler at the caret position of the text document.<br/><font color="#0000FF" face="Arial" size="3"><br/>   <img alt="[textmenu2]" src="textmenu2.bmp"/><br/>   <br/></font>The ruler controls the formatting of the text below the ruler until another ruler is encountered. Tab stops can be added to the ruler by clicking with the mouse in the white region below the grey shaded bar. The tab stop shows up as a black inverted triangle. The position of the tab stop can be changed by dragging it with the mouse. To remove a tab stop drag it all the way to the extreme left edge of the ruler. <br/><br/>The buttons above the grey shaded bar control the margins, line spacing, and justification. If you click the first button, a black triangle will appear on the right side of the ruler. Dragging this triangle will change the right margin. The second and third buttons decrease and increase the line spacing, respectively. The current line spacing is shown by the number between the two buttons. The justification of the text can be changed to left-justified, center-justified, right-justified, or fill-justified by clicking in the fourth, fifth, sixth or seventh button, respectively. The eighth and ninth buttons control the line spacing between paragraphs. Clicking the last button will cause the ruler to force a page break.<br/><br/><br/><h5 id="InsertSoftHyphen">Insert Soft-Hyphen</h5>This command<br/><br/><h5 id="InsertNonBrkHyphen">Insert Non-Brk Hyphen</h5>This command inserts a hyphen that will not split over a line break.<br/><br/><br/><h5 id="InsertNonBrkSpace">Insert Non-Brk Space</h5>This command inserts a space that will not split over a line break. It is useful if you want to underline a stretch of text containing spaces.<br/><br/><br/><h5 id="InsertDigitSpace">Insert Digit Space</h5>This command inserts a space that has the same width as a digit (0..9).<br/><br/><br/><h5 id="ShowHideMarks">Show/Hide Marks</h5>This command toggles between making special formatting controls visible in the text or making them invisible. Seeing the formatting controls is particularly useful when creating targets and links. See the <a href="/documentation/latest/ToolsMenu.html">Tools menu</a> for a description on how to do this.<br/><br/><br/><h5 id="MakeDefaultAttributes">Make Default Attributes</h5>This command<br/><br/><h5 id="MakeDefaultRuler">Make Default Ruler</h5><br/>This command
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#GeneralProperties">General properties</a></li><li><a href="#FindReplace">Find/Replace...</a></li><li><a href="#FindAgain">Find Again</a></li><li><a href="#FindPrevious">Find Previous</a></li><li><a href="#FindFirst">Find First</a></li><li><a href="#FindLast">Find Last</a></li><li><a href="#ShiftLeft">Shift Left</a></li><li><a href="#ShiftRight">Shift Right</a></li><li><a href="#InsertParagraph">Insert Paragraph</a></li><li><a href="#InsertRuler">Insert Ruler</a></li><li><a href="#InsertSoftHyphen">Insert-Soft-Hyphen</a></li><li><a href="#InsertNonBrkHyphen">Insert Non-Brk-Hyphen</a></li><li><a href="#InsertNonBrkSpace">Insert Non-Brk-Space</a></li><li><a href="#InsertDigitSpace">Insert Digit Space</a></li><li><a href="#ShowHideMarks">Show/Hide Marks</a></li><li><a href="#MakeDefaultAttributes">Make Default Attributes</a></li><li><a href="#MakeDefaultRuler">Make Default Ruler</a></li></ul></div></div></div></div></body></html>

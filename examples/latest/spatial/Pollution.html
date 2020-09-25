@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Pollution</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/documentation/latest/">Documentation</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/examples/latest/">Examples <span class="sr-only">(current)</span></a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Examples</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume1">Volume I</a>
+<ul class="collapse" id="volume1">
+<li><a href="/examples/latest/Volumei.html">Contents</a></li>
+<li><a href="/examples/latest/Rats.html" title="Normal hierarchical model">Rats</a></li>
+<li><a href="/examples/latest/Pumps.html" title="Conjugate gamma-Poisson hierarchical model">Pumps</a></li>
+<li><a href="/examples/latest/Dogs.html" title="Log linear binary model">Dogs</a></li>
+<li><a href="/examples/latest/Seeds.html" title="Random effects logistic regression">Seeds</a></li>
+<li><a href="/examples/latest/Surgical.html" title="Institutional ranking">Surgical</a></li>
+<li><a href="/examples/latest/Magnesium.html" title="Meta-analysis prior sensitivity">Magnesium</a></li>
+<li><a href="/examples/latest/Salm.html" title="Extra-Poisson variation in dose-response study">Salm</a></li>
+<li><a href="/examples/latest/Equiv.html" title="Bioequivalence in a cross-over trial">Equiv</a></li>
+<li><a href="/examples/latest/Dyes.html" title="Variance components model">Dyes</a></li>
+<li><a href="/examples/latest/Stacks.html" title="Robust and ridge regression">Stacks</a></li>
+<li><a href="/examples/latest/Epil.html" title="Repeated measures on Poisson counts">Epil</a></li>
+<li><a href="/examples/latest/Blockers.html" title="Random effects meta-analysis of clinical trials">Blockers</a></li>
+<li><a href="/examples/latest/Oxford.html" title="Smooth fit to log-odds ratios in case control studies">Oxford</a></li>
+<li><a href="/examples/latest/Lsat.html" title="Latent variable models for item-response data">LSAT</a></li>
+<li><a href="/examples/latest/Bones.html" title="Latent trait model for multiple ordered categorical responses">Bones</a></li>
+<li><a href="/examples/latest/Inhalers.html" title="Random effects model for ordinal responses from a cross-over trial">Inhalers</a></li>
+<li><a href="/examples/latest/Mice.html" title="Weibull regression in censored survival analysis">Mice</a></li>
+<li><a href="/examples/latest/Kidney.html" title="Weibull regression with random effects">Kidney</a></li>
+<li><a href="/examples/latest/Leuk.html" title="Survival analysis using Cox regression">Leuk</a></li>
+<li><a href="/examples/latest/Leukfr.html" title="Cox regression with frailties">LeukFr</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume2">Volume II</a>
+<ul class="collapse" id="volume2">
+<li><a href="/examples/latest/Volumeii.html">Contents</a></li>
+<li><a href="/examples/latest/Dugongs.html" title="A nonconjugate, nonlinear model">Dugongs</a></li>
+<li><a href="/examples/latest/Otrees.html" title="A hierarchical, nonlinear model">Orange trees</a></li>
+<li><a href="/examples/latest/OtreesMVN.html" title="A hierarchical, nonlinear model">MV Orange trees</a></li>
+<li><a href="/examples/latest/Biopsies.html" title="Latent class model">Biopsies</a></li>
+<li><a href="/examples/latest/Eyes.html" title="Normal mixture model">Eyes</a></li>
+<li><a href="/examples/latest/Hearts.html" title="A mixture model for count data">Hearts</a></li>
+<li><a href="/examples/latest/Air.html" title="Covariate measurement error">Air</a></li>
+<li><a href="/examples/latest/Cervix.html" title="Case-control study with errors in covariates">Cervix</a></li>
+<li><a href="/examples/latest/Jaws.html" title="Repeated measures analysis of variance">Jaw</a></li>
+<li><a href="/examples/latest/BiRats.html" title="A bivariate Normal hierarchical model">Birats</a></li>
+<li><a href="/examples/latest/Schools.html" title="Multivariate hierarchical model of examination results">Schools</a></li>
+<li><a href="/examples/latest/Ice.html" title="Non-parametric smoothing in an age-cohort model">Ice</a></li>
+<li><a href="/examples/latest/Beetles.html" title="Logistic, probit and extreme value models">Beetles</a></li>
+<li><a href="/examples/latest/Alligators.html" title="Multinomial logistic model">Alligators</a></li>
+<li><a href="/examples/latest/Endo.html" title="Conditional inference in case-control studies">Endo</a></li>
+<li><a href="/examples/latest/Stagnant.html" title="A change point problem">Stagnant</a></li>
+<li><a href="/examples/latest/Asia.html" title="An expert system">Asia</a></li>
+<li><a href="/examples/latest/Pigs.html" title="Genetic counseling and pedigree analysis">Pigs</a></li>
+<li><a href="/examples/latest/t-df.html" title="Degree of freedom of a t distribution">Simulating data</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume3">Volume III</a>
+<ul class="collapse" id="volume3">
+<li><a href="/examples/latest/Volumeiii.html">Contents</a></li>
+<li><a href="/examples/latest/Camel.html" title="Multivariate normal with structured missing data">Camel</a></li>
+<li><a href="/examples/latest/Eyetracking.html" title="Dirichlet process prior">Eye Tracking</a></li>
+<li><a href="/examples/latest/Fire.html" title="Data distribution using dloglik">Fire insurance claims</a></li>
+<li><a href="/examples/latest/Funshapes.html" title="General constraints">Fun Shapes</a></li>
+<li><a href="/examples/latest/Hepatitis.html" title="Random effects model with measurement error">Hepatitis</a></li>
+<li><a href="/examples/latest/Hips1.html" title="Deterministic cost-effectiveness model">Hips1</a></li>
+<li><a href="/examples/latest/Hips2.html" title="Stochastic cost-effectiveness model">Hips2</a></li>
+<li><a href="/examples/latest/Hips3.html" title="Cost-effectiveness model">Hips3</a></li>
+<li><a href="/examples/latest/Hips4.html" title="Cost-effectiveness model">Hips4</a></li>
+<li><a href="/examples/latest/Jama.html" title="Radio carbon dating with phase information">Jama</a></li>
+<li><a href="/examples/latest/Pigweights.html" title="Smoothed histogram">Pig Weights</a></li>
+<li><a href="/examples/latest/Pines.html" title="Bayes factors using pseudo priors">Pines</a></li>
+<li><a href="/examples/latest/StVeit.html" title="Radio carbon dating with stratification">St Veit</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#volume4">Volume IV</a>
+<ul class="collapse" id="volume4">
+<li><a href="/examples/latest/Volumeiv.html">Contents</a></li>
+<li><a href="/examples/latest/SeedsDataCloning.html" title="Estimating MLEs">Seeds</a></li>
+<li><a href="/examples/latest/Coins.html" title="The ABC">Coins</a></li>
+<li><a href="/examples/latest/SmartPhones.html" title="A bootstrap approach">Smart phones</a></li>
+<li><a href="/examples/latest/Abbey.html" title="Share prices a stable approach">Abbey</a></li>
+<!--<li><a href="/examples/latest/BeetlesMLE.html" title="Differential evolution and MLEs">Beetles</a></li>-->
+<li><a href="/examples/latest/BeetlesProbit.html" title="Probit regression and censoring">Beetles</a></li>
+<li><a href="/examples/latest/Preeclampsia.html" title="A multistage approach">Preeclampsia</a></li>
+<li><a href="/examples/latest/Lotka-Volterra.html" title="A simple ODE model">Lotka-Volterra</a></li>
+<li><a href="/examples/latest/FiveCompartment.html" title="A complex ODE model">Five compartment</a></li>
+<li><a href="/examples/latest/ChangePoints.html" title="An ODE model with change points">Change points</a></li>
+<li><a href="/examples/latest/Pollution.html" title="An autoregressive time series model">Pollution</a></li>
+<li><a href="/examples/latest/Methadone.html" title="A large e-health random effects model">Methadone</a></li>
+<li><a href="/examples/latest/Functionals.html" title="Integration and algebraic equations">Functionals</a></li>
+</ul>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#ecology">Ecology</a>
+<ul class="collapse" id="ecology">
+<li><a href="/examples/latest/VolumeEco.html">Contents</a></li>
+<li><a href="/examples/latest/Gentians.html" title="Imperfect detection in site occppancy">Gentians</a></li>
+<li><a href="/examples/latest/Sparrowhawk.html" title="Generalised metapopulation model">Sparrowhawks</a></li>
+<li><a href="/examples/latest/Birds.html" title="Estimating species richness">Birds</a></li>
+<li><a href="/examples/latest/Lizards.html" title="Mixture model for abundance with imperfect detection">Lizards</a></li>
+<li><a href="/examples/latest/Voles.html" title="Estimating size of closed population">Voles</a></li>
+<li><a href="/examples/latest/Impala.html" title="Distance sampling">Impala</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse show" id="geobugs">
+<li><a href="/examples/latest/spatial/Examples.html">Contents</a></li>
+<li><a href="/examples/latest/spatial/Scotland.html" title="Lip cancer in Scotland">Conditional Autoregressive (CAR) models for disease mapping</a></li>
+<li><a href="/examples/latest/spatial/LHA.html" title="Lung cancer in a London Health Authority">Convolution priors</a></li>
+<li><a href="/examples/latest/spatial/Scotland1.html" title="Lip cancer revisited">Proper CAR model</a></li>
+<li><a href="/examples/latest/spatial/Elevation.html" title="Surface elevation">Bayesian kriging and spatial prediction</a></li>
+<li><a href="/examples/latest/spatial/Forest.html" title="Distribution of hickory trees in Duke forest">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Huddersfield.html" title="Ecological regression of air pollution and respiratory illness in children">Poisson-gamma spatial moving average (convolution) model</a></li>
+<li><a href="/examples/latest/spatial/Shared.html" title="Oral cavity cancer and lung cancer in West Yorkshire (UK)">Shared component for mapping multiple diseases</a></li>
+<li>Random walk priors for temporal smoothing of daily air pollution estimates</li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/examples/latest/reliability/Vol.html">Contents</a></li>
+<li><a href="/examples/latest/reliability/BS_Ex.html" title="'psi31' data from B&amp;S(1969)">Birnbuam-Saunders model</a></li>
+<li><a href="/examples/latest/reliability/BurrX_Ex.html" title="'Ball bearing' data from Lawless(2003)">BurrX model</a></li>
+<li><a href="/examples/latest/reliability/BurrXII_Ex.html" title="Simulated example ">BurrXII model</a></li>
+<li><a href="/examples/latest/reliability/ExpoWeibull_Ex.html" title="Carbon Fibres data from Nichols and Padgett (2006) ">Two Parameter Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/ExpPower_Ex.html" title="'Simulated data">Exponential Power model</a></li>
+<li><a href="/examples/latest/reliability/Ext_exponential_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006)">Marshal-Olkin Extended Exponential (MOEE) model</a></li>
+<li><a href="/examples/latest/reliability/Ext_Weibull_Ex.html" title="'Device failure times data' from Meeker and Escobar(1998)">Marshal-Olkin Extended Weibull model</a></li>
+<li><a href="/examples/latest/reliability/FlexibleWeibull_Ex.html" title="'Reactor pump failure data' from Bebbinton, Lai, and Zitikis(2007)">Flexible Weibull model</a></li>
+<li><a href="/examples/latest/reliability/GenExponential_Cen_Ex.html" title="'Ball bearing' data from Lawless(2003)">Censored Generalized Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Gompertz_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gompertz model</a></li>
+<li><a href="/examples/latest/reliability/GPWeibull_Ex.html" title="'Carbon Fibres data' from Nichols and Padgett (2006) ">Two Parameter (GP) Exponentiated Weibull Example model</a></li>
+<li><a href="/examples/latest/reliability/Gumbel_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Gumbel model</a></li>
+<li><a href="/examples/latest/reliability/Inv_Weibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Inverse Weibull model</a></li>
+<li><a href="/examples/latest/reliability/InvGaussian_Ex.html" title="'Transceiver data' from Chikara and Folks (9177)">Inverse Gaussian model</a></li>
+<li><a href="/examples/latest/reliability/LinearFailure_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Linear Failure Rate (LFR) model</a></li>
+<li><a href="/examples/latest/reliability/LogisticExponential_Ex.html" title="'Naval logistics' data from Yan and Leemis (2008)">Logistic-Exponential model</a></li>
+<li><a href="/examples/latest/reliability/Loglogistic_Ex.html" title="Simulated data">Log-Logistic model</a></li>
+<li><a href="/examples/latest/reliability/LogWeibull_Ex.html" title="Data from Murthy, Xie, and Jiang(2004)">Log-Weibull model</a></li>
+<li><a href="/examples/latest/reliability/ModifiedWeibull_Ex.html" title="Data from Aarset(1987)">Modified Weibull model</a></li>
+<li><a href="/examples/latest/reliability/WeibullShifted_Ex.html" title="Simulated data">Weibull-shifted model</a></li>
+</ul>
+</li>
+</li></li></li></li></ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Random walk priors for temporal smoothing of daily air pollution estimates</h4><br/>Shaddick and Wakefield (2002) consider spatiotemporal modelling of daily ambient air pollution at a number of monitoring sites in London. Here we take a subset of their data on a single pollutant measured at one site for 366 days, and model temporal autocorrelation using a random walk prior. <br/><br/>Conditional on the underlying mean concentration <font>μ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> on day t, the likelihood for the observed pollution concetration Y<sub>t </sub>is assumed to be independent Normal i.e.<br/><br/>   Y<font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal(<font>μ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font>, <font>τ</font><font color="#000100" face="Arial" size="2"><sub>err</sub></font>) where 1/<font>τ</font><font color="#000100" face="Arial" size="2"><sub>err</sub></font><sub> </sub>is the measurement error variance<br/><font>   μ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> = <font>β</font> + <font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub><br/><br/>where <font>β</font> is the overall mean pollution concentration at the site, and <font>θ</font><sub>t </sub>is a (zero mean) random error term representing daily fluctuations about this mean. To reflect the prior belief that these daily fluctuations are correlated, a <a href="/documentation/latest/spatial/Manual.html#rw"></a><a href="/documentation/latest/spatial/Manual.html#rw">random walk</a> prior is assumed for<font><strong>θ</strong></font><sub> </sub>= <font>{θ</font><font color="#000100" face="Arial" size="2"><sub>1</sub></font><sub> </sub>, ......, <font>θ</font><font color="#000100" face="Arial" size="2"><sub>366</sub></font><sub> </sub>} (see equation 7 in Shaddick and Wakefield):<br/>   <font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>   ~ Normal <font>( θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>, <font>φ</font> )   for t = 1<br/>      ~ Normal <font>( (θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>)/2, <font>φ</font> / 2 )   for t = 2, ...., T-1<br/>      ~ Normal <font>( θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font>, <font>φ</font> )   for t = T<br/><br/>where <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>denotes all elements of <font><strong>θ</strong></font>except the <font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font>. This prior may be specified in WinBUGS 1.4 using the <strong><em>car.normal </em></strong>distribution, with adjacency vector <strong><em>adj[]</em></strong> listing neighbouring time points (i.e. (t-1) and (t+1) are neighbours of time point t), corresponding weight vector <strong><em>weight[]</em></strong> set to a sequence of 1's, and vector giving the number of neighbours, <strong><em>num[]</em></strong>, set to 2 for all time points except <strong><em>num[1]</em></strong> and <strong><em>num[T] </em></strong>which are set to 1. <br/><br/>The RW(1) reflects prior beliefs about smoothness of first differences, i.e. sudden jumps between consecutive values of <font><strong>θ</strong></font><sub> </sub>are unlikely. Alternatively, we may assume a second order random walk prior RW(2) for <font><strong>θ</strong></font><sub> </sub>, which represents prior beliefs that the rate of change (gradient) of <font><strong>θ</strong></font><sub> </sub>is smooth:<br/><font>θ</font><font color="#000100" face="Arial" size="2"><sub>t</sub></font> | <font>θ</font><font><sub>-</sub></font><font color="#000100" face="Arial" size="2"><sub>t</sub></font><sub> </sub>~ Normal <font>( </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>, <font>φ</font> ) for t = 1<br/>   ~ Normal <font>( </font>(2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>) / 5, <font>φ</font> / 5 ) for t = 2 <br/>   ~ Normal <font>( (-θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>4<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font><sub> </sub><font>- θ</font><font color="#000100" face="Arial" size="2"><sub>t+2</sub></font>) / 6, <font>φ</font> / 6 ) for t = 3, ...., T - 2<br/>   ~ Normal <font>( (-θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><sub> </sub><font>+ 4θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font><sub> </sub><font>+ </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t+1</sub></font>) / 5, <font>φ</font> / 5 ) for t = T -1<br/>   ~ Normal <font>( -θ</font><font color="#000100" face="Arial" size="2"><sub>t-2</sub></font><font>+ </font>2<font>θ</font><font color="#000100" face="Arial" size="2"><sub>t-1</sub></font>, <font>φ</font> ) for t = T<br/><br/>Again this may be specified using the <strong><em>car.normal </em></strong>distribution in OpenBUGS via appropriate specification of the <strong><em>adj[]</em></strong>, <strong><em>weight[]</em></strong> and <strong><em>num[]</em></strong> vectors.<br/><br/>The model code for fitting these two models is given below.<br/><font color="#0000FF" face="Arial" size="5">Model</font>model {<br/><span class="button"><br/></span><span class="button"></span>#likelihood<span class="button"><br/></span><span class="button">   </span>for(t in 1:T) {<br/>      y[t] ~ dnorm(mu[t], tau.err)<br/>      mu[t] &lt;- beta + theta[t]<br/>   }<br/><span class="button"><br/></span><span class="button">   </span># prior for temporal effects <br/># RW prior for theta[t] - specified using car.normal with <br/>         #neighbours (t-1) and (t+1) <br/># for theta[2],....,theta[T-1], and neighbours (t+1) for <br/>         #theta[1] and (t-1) for theta[T]<br/><br/>   theta[1:T] ~ car.normal(adj[], weights[], num[], tau) <br/>   beta ~ dflat()<br/>   <br/># Specify weight matrix and adjacency matrix corresponding to RW(1) prior<span class="button"><br/></span># (Note - this could be given in the data file instead)<br/><br/>   for(t in 1:1) {<br/>      weights[t] &lt;- 1;<br/>               adj[t] &lt;- t+1;<br/>               num[t] &lt;- 1<br/>   }<br/>   for(t in 2:(T-1)) {<br/>      weights[2+(t-2)*2] &lt;- 1;<br/>               adj[2+(t-2)*2] &lt;- t-1<br/>      weights[3+(t-2)*2] &lt;- 1;<br/>               adj[3+(t-2)*2] &lt;- t+1;<br/>               num[t] &lt;- 2<br/>   }<br/>   for(t in T:T) {<br/>      weights[(T-2)*2 + 2] &lt;- 1;<br/>               adj[(T-2)*2 + 2] &lt;- t-1;<br/>               num[t] &lt;- 1<br/>   }<br/>   <br/>         # Alternatively, a weight matrix and adjacency matrix <br/>         #corresponding to RW(2) prior can<br/>         # be specified or given in the data file <br/>         #(note, no need to change the prior distribution<br/>         # on theta, just the weights/adjacencies)<br/>#   for(t in 1:1) {      <br/>#      weights[t] &lt;- 2;      adj[t] &lt;- t+1<br/>#      weights[t+1] &lt;- -1;      adj[t+1] &lt;- t+2;         num[t] &lt;- 2<br/>#   }<br/>#   for(t in 2:2) {      <br/>#   weights[t+1] &lt;- 2;         adj[t+1] &lt;- t-1<br/>#   weights[t+2] &lt;- 4;         adj[t+2] &lt;- t+1<br/>#   weights[t+3] &lt;- -1;         adj[t+3] &lt;- t+2;         num[t] &lt;- 3<br/>#   }<br/>#for(t in 3:(T-2)) {<br/>#      weights[6+(t-3)*4] &lt;- -1;      adj[6+(t-3)*4] &lt;- t-2<br/>#      weights[7+(t-3)*4] &lt;- 4;      adj[7+(t-3)*4] &lt;- t-1<br/>#      weights[8+(t-3)*4] &lt;- 4;      adj[8+(t-3)*4] &lt;- t+1<br/>#      weights[9+(t-3)*4] &lt;- -1;      adj[9+(t-3)*4] &lt;- t+2;         num[t] &lt;- 4<br/>#   }<br/>#   for(t in (T-1):(T-1)) {      <br/>#      weights[(T-4)*4 + 6] &lt;- 2;      adj[(T-4)*4 + 6] &lt;- t+1<br/>#      weights[(T-4)*4 + 7] &lt;- 4;      adj[(T-4)*4 + 7] &lt;- t-1<br/>#      weights[(T-4)*4 + 8] &lt;- -1;      adj[(T-4)*4 + 8] &lt;- t-2;         num[t] &lt;- 3<br/>#   }<br/>#   for(t in T:T) {      <br/>#      weights[(T-4)*4 + 9] &lt;- 2;      adj[(T-4)*4 + 9] &lt;- t-1<br/>#      weights[(T-4)*4 + 10] &lt;- -1;      adj[(T-4)*4 + 10] &lt;- t-2;         num[t] &lt;- 2<br/>#   }<br/><br/># other priors<br/>   tau.err ~ dgamma(0.01, 0.01)      # measurement error precision<br/>   sigma.err &lt;- 1 / sqrt(tau.err)<br/>   sigma2.err &lt;- 1/tau.err<br/><br/>   tau ~ dgamma(0.01, 0.01)            # random walk precision<br/>   sigma &lt;- 1 / sqrt(tau)<br/>   sigma2 &lt;- 1/tau<br/>            sum &lt;- sum(theta[])<br/>         # include this variable to use in time series (model fit) plot<br/>   for(t in 1:T) { day[t] &lt;- t }            <br/><br/>}<br/>Note that pollution concentrations were not measured every day. However it is necessary to include days with no measurements as missing values (NA) in the data set, otherwise the temporal neighbourhood structure cannot be specified correctly.<br/><a href="/examples/latest/spatial/Pollutiondata.html"></a><div><h5>Data</h5><details><code>
+<br/>list(T=366, y = c(2.89037175789616, 2.56494935746154, 3.17805383034795, <br/>3.68887945411394, 3.13549421592915, 2.484906649788, 3.13549421592915, <br/>3.04452243772342, 3.43398720448515, 3.52636052461616, 3.63758615972639, <br/>4.21950770517611, 1.94591014905531, 3.09104245335832, 3.98898404656427, <br/>4.02535169073515, 4.07753744390572, 3.13549421592915, 2.07944154167984, <br/>2.94443897916644, NA, 2.89037175789616, 3.09104245335832, 3.04452243772342, <br/>3.52636052461616, 3.78418963391826, 3.3322045101752, 3.46573590279973, <br/>2.94443897916644, 2.89037175789616, 3.09104245335832, 3.36729582998647, <br/>3.40119738166216, 3.13549421592915, 3.29583686600433, 2.56494935746154, <br/>3.09104245335832, 2.83321334405622, 3.55534806148941, 3.36729582998647, <br/>3.3322045101752, NA, NA, NA, NA, 3.43398720448515, 3.17805383034795, <br/>2.89037175789616, 2.77258872223978, 2.484906649788, 2.99573227355399, <br/>3.04452243772342, 3.04452243772342, 2.77258872223978, 2.77258872223978, <br/>2.77258872223978, 2.83321334405622, 2.70805020110221, 3.04452243772342, <br/>3.13549421592915, 2.56494935746154, 2.56494935746154, 2.94443897916644, <br/>3.36729582998647, 2.56494935746154, 3.04452243772342, 3.2188758248682, <br/>3.58351893845611, 4.02535169073515, 4.06044301054642, 3.73766961828337, <br/>3.78418963391826, 2.83321334405622, 3.09104245335832, 3.09104245335832, <br/>3.17805383034795, 3.40119738166216, 2.63905732961526, 2.56494935746154, <br/>2.89037175789616, 2.89037175789616, 3.13549421592915, 2.484906649788, <br/>2.89037175789616, 3.13549421592915, 2.89037175789616, 2.63905732961526, <br/>2.39789527279837, 2.83321334405622, 2.70805020110221, 3.09104245335832, <br/>3.40119738166216, 3.68887945411394, 3.04452243772342, 2.94443897916644, <br/>3.13549421592915, 2.94443897916644, 3.25809653802148, 3.55534806148941, <br/>4.02535169073515, 3.71357206670431, 3.36729582998647, 3.3322045101752, <br/>3.36729582998647, 3.29583686600433, 3.13549421592915, 3.29583686600433, <br/>2.89037175789616, NA, NA, NA, NA, 2.77258872223978, 2.99573227355399, <br/>3.40119738166216, 3.3322045101752, 2.63905732961526, 2.89037175789616, <br/>2.83321334405622, 2.77258872223978, 3.2188758248682, 3.09104245335832, <br/>NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 3.63758615972639, <br/>3.71357206670431, 2.89037175789616, 2.77258872223978, NA, NA, <br/>2.83321334405622, 2.77258872223978, 2.77258872223978, 2.94443897916644, <br/>2.94443897916644, 2.83321334405622, 2.99573227355399, 3.36729582998647, <br/>3.36729582998647, 3.09104245335832, 3.09104245335832, 3.13549421592915, <br/>3.17805383034795, 3.36729582998647, 3.66356164612965, 2.83321334405622, <br/>2.39789527279837, 2.77258872223978, 2.83321334405622, 3.66356164612965, <br/>3.2188758248682, 2.39789527279837, 2.56494935746154, 2.70805020110221, <br/>2.70805020110221, 3.09104245335832, 2.83321334405622, 2.99573227355399, <br/>2.56494935746154, 2.56494935746154, 2.39789527279837, 2.484906649788, <br/>2.99573227355399, 3.04452243772342, 2.39789527279837, 2.70805020110221, <br/>2.07944154167984, 2.77258872223978, 2.99573227355399, 2.94443897916644, <br/>2.77258872223978, 2.19722457733622, NA, 3.04452243772342, 3.46573590279973, <br/>3.17805383034795, 3.04452243772342, 3.36729582998647, 3.2188758248682, <br/>2.99573227355399, 3.55534806148941, 3.2188758248682, 2.70805020110221, <br/>2.63905732961526, 2.83321334405622, 2.63905732961526, 2.70805020110221, <br/>2.99573227355399, 3.13549421592915, 2.89037175789616, 2.99573227355399, <br/>3.2188758248682, 3.43398720448515, 3.13549421592915, 2.63905732961526, <br/>2.70805020110221, 2.19722457733622, NA, NA, NA, NA, 3.04452243772342, <br/>2.63905732961526, 2.89037175789616, 3.04452243772342, 3.13549421592915, <br/>3.55534806148941, 3.49650756146648, 3.76120011569356, 3.55534806148941, <br/>3.89182029811063, 4.12713438504509, 3.52636052461616, 2.70805020110221, <br/>2.94443897916644, 3.46573590279973, 3.49650756146648, 3.61091791264422, <br/>3.85014760171006, 3.97029191355212, 4.02535169073515, 3.52636052461616, <br/>2.30258509299405, 2.07944154167984, 1.94591014905531, 1.94591014905531, <br/>2.19722457733622, 2.77258872223978, 2.484906649788, 2.83321334405622, <br/>2.63905732961526, 2.83321334405622, 2.83321334405622, 2.56494935746154, <br/>2.56494935746154, 2.83321334405622, 2.83321334405622, 2.56494935746154, <br/>2.63905732961526, 2.89037175789616, 3.04452243772342, 3.66356164612965, <br/>3.55534806148941, 2.07944154167984, 2.39789527279837, 2.56494935746154, <br/>2.70805020110221, 2.94443897916644, 3.36729582998647, 3.76120011569356, <br/>3.04452243772342, 2.89037175789616, 3.04452243772342, 3.3322045101752, <br/>3.13549421592915, 2.94443897916644, 3.25809653802148, 3.3322045101752, <br/>3.40119738166216, 3.29583686600433, 3.78418963391826, 3.36729582998647, <br/>2.39789527279837, 3.17805383034795, 3.36729582998647, 2.99573227355399, <br/>2.83321334405622, 3.40119738166216, 2.07944154167984, 2.30258509299405, <br/>2.30258509299405, 2.19722457733622, 2.19722457733622, 2.19722457733622, <br/>2.484906649788, 2.89037175789616, 2.56494935746154, 2.89037175789616, <br/>2.70805020110221, 3.3322045101752, 3.61091791264422, 2.99573227355399, <br/>2.99573227355399, 3.29583686600433, 2.77258872223978, 2.94443897916644, <br/>3.58351893845611, 3.71357206670431, 3.2188758248682, 2.99573227355399, <br/>3.87120101090789, 4.23410650459726, 4.04305126783455, 4.29045944114839, <br/>4.52178857704904, 3.52636052461616, 3.3322045101752, 2.89037175789616, <br/>2.77258872223978, 3.25809653802148, 2.484906649788, 1.94591014905531, <br/>2.39789527279837, 3.43398720448515, 3.66356164612965, 3.52636052461616, <br/>3.13549421592915, 2.30258509299405, 2.63905732961526, 2.94443897916644, <br/>2.89037175789616, 2.89037175789616, 2.77258872223978, 2.63905732961526, <br/>3.13549421592915, 2.56494935746154, 2.94443897916644, 3.63758615972639, <br/>3.8286413964891, 3.25809653802148, 2.63905732961526, 2.39789527279837, <br/>2.484906649788, 3.29583686600433, 2.56494935746154, 2.77258872223978, <br/>2.77258872223978, 3.04452243772342, 2.77258872223978, 2.89037175789616, <br/>2.89037175789616, 2.63905732961526, NA, 2.56494935746154, 2.70805020110221, <br/>3.09104245335832, 2.89037175789616, 2.63905732961526, 3.13549421592915, <br/>3.46573590279973, 3.13549421592915, 3.25809653802148, 3.17805383034795, <br/>2.63905732961526, 3.43398720448515, 2.70805020110221, 2.484906649788, <br/>2.70805020110221, 2.19722457733622, 2.39789527279837, 2.484906649788, <br/>2.63905732961526, 2.39789527279837, 2.19722457733622))<br/>
+</code></details></div><a href="/examples/latest/spatial/Pollutioninits.html"></a><div><h5>Inits for chain 1</h5><code>
+list(beta = 2, tau.err=1, tau=0.1)
+</code></div>    <a href="/examples/latest/spatial/Pollutioninits1.html"></a><div><h5>Inits for chain 2</h5><code>
+list(beta = 0.2, tau.err=0.1, tau=1)
+</code></div><br/><br/><br/>Plus click on <em>gen inits</em> to generate initial values for the missing data<br/><font color="#0000FF" face="Arial" size="5">Results</font><br/>RW(1) prior:<br/><br/><br/></p><center><img alt="[pollution1]" src="pollution1.bmp"/><br/></center>Plot of posterior median (red line) and posterior 95% intervals (dashed blue lines) for mu[t] (the true mean daily pollutant concentration), with observed concentrations shown as black dots. (This plot was produced by selecting the <em>model fit</em> option from the <em>Compare</em> menu (available from the <em>Inference</em> menu), with <em>mu</em> specified as the <em>node</em>, <em>day</em> as the <em>axis</em> and <em>y</em> as <em>other</em>). Note that the dashed blue line shows the posterior 95% interval for the estimated mean daily concentration, and is not a predictive interval - hence we would not necessarily expect all of the observed data points to lie within the interval.<br/><br/><br/>Equivalent plot assuming an RW(2) prior. Note the greater amount of smoothing imposed by this prior:<br/><font color="#0000FF" face="Arial" size="2"><u></u></font><img alt="[pollution3]" src="pollution3.bmp"/><br/>
+
+<p></p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5></div></div></div></div></body></html>

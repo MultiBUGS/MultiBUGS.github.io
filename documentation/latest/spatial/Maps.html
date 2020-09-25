@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Maps</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse show" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li>Creating maps</li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Creating maps</h4><h5 id="Maps">Producing maps</h5><br/>Note: in order to produce a map of the mean or other summary statistic of the posterior distribution of a stochastic variable, you must have already set a samples or summary monitor for that parameter and have carried out some updates.<br/><br/>To produce a map:<br/><br/>* Select the <span class="button">Mapping Tool</span> option from the <span class="button">Map</span> menu.<br/><br/><br/>         <img alt="[maps1]" src="maps1.bmp"/><br/><br/>* Select the name of the map you wish to draw from the pull-down menu labelled <span class="button">Map</span>.<br/><br/>* Type the name of the variable to be mapped in the white box labelled <span class="button">Variable</span>.<br/><br/>* If the variable is data (e.g. the raw SMR, expected counts E, or a covariate) pick the <span class="button">value</span> option in the pull down menu labelled <span class="button">Quantity</span> and then click the <span class="button">plot</span> button: a map shaded according to the values of the variable will now appear.<br/><br/>* If the variable is a stochastic quantity (e.g. the relative risks) there are various options which you can select from the <span class="button">Quantity</span> menu:<br/><br/>- if you have monitored the variable by setting a summary monitor, then you must select the <span class="button">mean(summary)</span> option from this menu, as only the posterior means are stored by the summary monitor;<br/>- if you have monitored the variable by setting a samples monitor (which stores the full posterior sample), you can select any of the remaining options from the Quantity menu:<br/>   <span class="button">mean(sample)</span> will map the posterior means of the variable;<br/>   <span class="button">percentile</span> will plot posterior quantiles of the variable - if you select this option, you must then type the required percentile in the box labelled quantile;<br/>   <span class="button">prob greater</span> will map the posterior probability that the value of the variable is greater than or equal to the specified threshold, which you must type in the box labelled threshold;<br/>   <span class="button">prob less</span> will map the posterior probability that the value of the variable is less than or equal to the specified threshold, which you must type in the box labelled threshold;<br/><br/>   When you have selected the quantity you want to map, click the <span class="button">plot</span> button to display the map. <br/><br/>* The numbers in brackets shown on the map legend give the number of areas classified in each category on the map.<br/><br/>Fig 1. GeoBUGS map of SMRs for Scottish Lip Cancer data <br/><br/><br/>                     <img alt="[maps2]" src="maps2.bmp"/><br/><br/><br/><h5 id="Cuts">User-specified cut-points and shading</h5><br/>GeoBUGS can work with two kinds of cut-points: absolute value cut-points and percentile cut-points. For absolute cut-points, GeoBUGS chooses a default set of breaks based on the absolute value of the variable to be mapped: these are chosen to give equally spaced intervals. For percentile cutpoints, GeoBUGS chooses the 10th, 50th and 90th percentiles of the empirical distribution of the variable to be mapped. The default shading is blue-scale. <br/><br/>To edit the colours for shading the map:<br/><br/>* Select the <span class="button">custom</span> option from the <span class="button">Palette</span> menu in the top right of the <span class="window_title">Map Tool</span>.<br/><br/>* Clicking with the left mouse button on the arrow by each colour will bring up a menu of alternative colours that can be selected.<br/><br/>* After you have selected the new colour scheme, click on the <span class="button">set cuts</span> button to "refresh" the currently selected map or click on the <span class="button">plot</span> button to produce a new map.<br/><br/>* To reset the colour scheme to blue shades, select <span class="button">blues</span> from the Palette menu and click on the set <span class="button">cuts button</span> again. <br/><br/>To edit the absolute value cutpoints:<br/><br/>* Select the required number of cutpoints (a maximum of 6 cutpoints is currently allowed) from the menu labelled <span class="button">num cuts</span> under the <span class="button">Cuts</span> menu. <br/><br/>* Type the required values of the cutpoints in the appropriate boxes labelled cut 1, cut 2 etc.<br/><br/>* Click on the <span class="button">set cuts</span> button to "refresh" the currently selected map or click on the <span class="button">plot</span> button to produce a new map.<br/><br/>To produce maps using cutpoints based on percentiles:<br/><br/>* Select the <span class="button">percentile</span> option rather than <span class="button">abs value</span> option for the cutpoints on the left of the <span class="window_title">Map Tool</span>.<br/><br/>* Click on the <span class="button">plot</span> button to produce a new map. The default is to set the cutpoints to the 10th, 50th and 90th percentiles of the empirical distribution of values to be mapped.<br/><br/>* To display the absolute values corresponding to these percentiles on the map legend:<br/>- reselect the <span class="button">abs value</span> option for cutpoints;<br/>- click on the <span class="button">get cuts</span> button - the absolute values corresponding to the percentiles should now be displayed in the <span class="button">Cuts</span> boxes on the right of the <span class="window_title">Map Tool</span>.<br/>- click on the <span class="button">set cuts</span> button - the legend labels on the map should now display the absolute values of the cutpoints.<br/><br/>To use the same set of cutpoints for multiple maps:<br/><br/>* Select the window with the map containing the cutpoints you wish to use.<br/>* Click on the get cuts button - the cutpoints used for the selected map should now be displayed in the Cuts boxes on the right of the <span class="window_title">Map Tool</span>.<br/>* Select the window with the map whose cutpoints you wish to change.<br/>* Click on the set cuts button - the map should now be updated using the new cutpoints.<br/><br/>Some current limitations:<br/><br/>* It is not possible to save user-defined colour schemes once you quit GeoBUGS.<br/><br/><br/><h5 id="Identify">Identifying individual areas on a map</h5><br/>The index, label and value of an individual area on the map can be found by placing the cursor over the area of interest on the map and clicking with the left mouse button. The index (i.e. ID number i of the area, where i=1, ..., Number of areas), area label (given in the polygon file) and value of variable currently being mapped for the selected area will be shown in left of the grey bar at the bottom of the BUGS program window.<br/><br/><h5 id="Save">Copying and saving maps</h5><br/><br/>Maps produced using the GeoBUGS map tool can be copied and pasted into other Microsoft Windows software such as Word and PowerPoint. To select the map, click anywhere on the map window to focus it, then press the Ctrl and Space keys simultaneouly (a blue border should then appear around the figure); then select <span class="button">Copy</span> from the <span class="button">Edit</span> menu (or Crtl-C). Then paste into the appropriate Word or PowerPoint file etc. To save the map as a postscript file, you will need to install a postscript print driver on your PC, then select <span class="button">Print</span> from the <span class="button">File</span> menu, check the 'print to file' box, and then select <span class="button">Print</span>. You can also save the maps as OpenBUGS <code>.odc</code> documents; this will allow you to re-open the map within BUGS and re-edit the cutpoints and colours if you wish.<br/><br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#Maps">Producing maps</a></li><li><a href="#Cuts">User-specified cut-points and shading</a></li><li><a href="#Identify">Identifying individual areas on a map</a></li><li><a href="#Save">Copying and saving maps</a></li></ul></div></div></div></div></body></html>

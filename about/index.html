@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>MultiBUGS - About</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg">MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/download">Download</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/documentation/latest/">Documentation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/examples/latest/">Examples</a>
+    </li>
+  </ul>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-4 mt-5">
+<img src="/images/logo.svg" id="big_brand">
+</div>
+
+<div class="col-sm-8 mt-5">
+<h4>About MultiBUGS</h4>
+
+<p>
+MultiBUGS is a software package for performing Bayesian inference.
+It builds on the existing algorithms and tools in <a href="http://www.openbugs.net/w/FrontPage">OpenBUGS</a> and <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/">WinBUGS</a>, and so is applicable to the broad range of statistical models that can be fitted using BUGS-language software, but <strong>automatically parallelises the MCMC algorithm</strong> to dramatically speed up computation.
+</p>
+
+<h5>The BUGS Project</h5>
+<p>
+BUGS is a long running project that makes easy to use and flexible Bayesian modelling software available to the statistics community.
+The software is structured around the twin ideas of the declarative BUGS language (Thomas 2006), through which the user specifies the graphical model (Lauritzen et al. 1990) that defines the statistical model to be analysed; and Markov Chain Monte Carlo simulation (MCMC) (Geman and Geman 1984; Gelfand and Smith 1990), which is used to estimate the posterior distribution.
+The project began in 1989 at the <a href="https://www.mrc-bsu.cam.ac.uk">MRC Biostatistics Unit</a>, Cambridge, UK.
+</p>
+
+<h5>Versions of BUGS</h5>
+BUGS has evolved through four main versions: ClassicBUGS, then WinBUGS, then  OpenBUGS, and now MultiBUGS.
+
+<ul>
+<li>
+`Classic’ BUGS program (Spiegelhalter et al. 1996)
+</li>
+
+<li><a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS 1.4.3</a> (Lunn et al. 2000) is an established and stable, stand-alone version of the software, which will remain available but not further developed.</li>
+
+<li><a href="http://www.openbugs.net">OpenBUGS 3.2.3</a> (Lunn et al. 2009), is an open-source version of the package that is also not being further developed. It has designed to be at least as efficient and reliable as WinBUGS over a wide range of test applications. OpenBUGS runs on x86 machines with Windows, Linux or Macintosh (using Wine).</li>
+
+<li>
+MultiBUGS, which builds and extends the OpenBUGS codebase to automatically parallelise the MCMC algorithm.
+</li>
+</ul>
+
+<h5>Other implementations of the BUGS language</h5>
+
+<ul>
+<li><a href="http://mcmc-jags.sourceforge.net">JAGS</a></li>
+<li><a href="https://r-nimble.org">NIMBLE</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

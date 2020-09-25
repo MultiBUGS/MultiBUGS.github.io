@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>MultiBUGS - Download</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg">MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="/download">Download <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/documentation/latest/">Documentation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/examples/latest/">Examples</a>
+    </li>
+  </ul>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-4 mt-5">
+<img src="/images/logo.svg" id="big_brand">
+</div>
+
+<div class="col-sm-8 mt-5">
+<h2>Download and installation</h2>
+
+<h5>Windows</h5>
+
+<ol>
+<li><p>Download and install <a href="https://msdn.microsoft.com/en-us/library/bb524831(v=vs.85).aspx">Microsoft MPI (MS-MPI)</a>. Version 8.1 or newer is required. This framework allows running parallel applications on the Windows platform.</p></li>
+
+<li>
+  <p><a href="https://github.com/MultiBUGS/MultiBUGS/releases/download/v2.0/MultiBUGS-2.0.zip">Download MultiBUGS 2.0</a>, and unzip this to, for example, <code>C:\Program Files (x86)\MultiBUGS-2.0</code>.
+</p>
+<p>Note that, within the installation directory, MultiBUGS creates a new <code>BugsWorker.exe</code> every time a model is run (e.g. <code>C:\Program Files (x86)\MultiBUGS-2.0\BugsWorker.exe</code>).
+This means you that you <strong>must have write permission for the installation directory</strong>, otherwise you will get the error &ldquo;unable to link BugsWorker executable&rdquo; when you try to distribute a model.
+Installing MultiBUGS in a different directory (e.g. <code>C:\Users\yourusername\MultiBUGS-2.0</code>) may resolve this error.
+</p>
+</li>
+
+<li> Open <code>C:\Program Files (x86)\MultiBUGS-2.0\MultiBUGS.exe</code>
+</li>
+</ol>
+
+<h5>Ubuntu Linux</h5>
+
+<p>
+MultiBUGS v2.0 is available as a beta release for Ubuntu 16.04 LTS and 18.04 LTS.
+</p>
+<p>Known issues include the lack of images in help pages, and the lack of y-scales on figures.
+</p>
+<p>To install via <code>apt</code>:</p>
+<ol>
+<li>
+  <p>Download <a href="https://github.com/MultiBUGS/MultiBUGS/releases/download/v2.0/multibugs_2.0-1.deb">multibugs_2.0-1.deb</a>, and install with
+</p>
+<code>
+sudo apt install ./multibugs_2.0-1.deb
+</code>
+</p>
+</li>
+
+<li><p>MultiBUGS can be started graphically from the Dash or from the command line using</p>
+<code>
+multibugs
+</code>
+</li>
+</ol>
+<p>
+To install from a tarball:
+<ol>
+<li>
+<p>
+Install required i386 GTK packages (for GUI) and MPICH (for parallel processing). On Ubuntu 18.04:
+</p>
+<p>
+<code>
+sudo dpkg --add-architecture i386<br>
+sudo apt update<br>
+sudo apt install libatk-adaptor:i386 libgtk2.0-0:i386 gtk2-engines:i386 gtk2-engines-murrine:i386 libcanberra-gtk-module:i386 gnome-themes-extra:i386 lib32stdc++6 mpich:i386<br>
+</code>
+</p>
+</li>
+<li>
+  <p>Download <a href="https://github.com/MultiBUGS/MultiBUGS/releases/download/v2.0/multibugs_2.0.tar.gz">multibugs_2.0.tar.gz</a>, untar, and start:
+</p>
+<code>
+tar -xvpf multibugs_2.0.tar.gz<br>
+cd multibugs<br>
+./run-MultiBUGS
+</code>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

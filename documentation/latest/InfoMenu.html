@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>InfoMenu</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse show" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li>Info</li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Info Menu</h4><h5 id="GeneralProperties">General properties</h5>This menu allows the user to obtain more information about how the software is working.<br/><br/><br/><h5 id="OpenLog">Open Log</h5>This option opens a log window to which error and status information is written.<br/><br/><br/><h5 id="ClearLog">Clear Log</h5>This option option clears all the information displayed in the log window.<br/><br/><br/><h5 id="Uninitnodes">Uninitialized nodes</h5>Shows nodes in the compiled model that have not been initialized yet. A new window is opened for each chain. <br/><br/>Again consider the Seeds example, compile the model for a single chain and load the initial value file and then selected the Uninitialized node option, a window will open containing<br/><br/>         <img alt="[infomenu1]" src="infomenu1.bmp"/><br/>         <br/>The random effects b[1] .. b[21] are unintialized.<br/><br/><h5 id="Updatersbyname">Updaters by name</h5>List the nodes which have associated updaters in alphabetical order with their updater algorithm. For block updating algorithms the first component in the block is shown followed by the other components of the block in brackets. Note for block updaters the first component might not be the node with the first name alphabetically.<br/><br/>For the Seeds example this option opens a window containing<br/><br/>         <img alt="[infomenu2]" src="infomenu2.bmp"/><br/><br/><h5 id="Updatersbydepth">Updaters by depth</h5>List the nodes which have associated updaters in the reverse topological order to which they occur in the graphical model with their updater algorithm. Nodes in the model which are forward sampled have a negative depth. For block updating algorithms the first component in the block is shown followed by the other components of the block in brackets. Note for block updaters the first component might not be the node with the first name alphabetically. <br/><br/>This option will show hidden updaters in the model created by data augmentation algorithms.<br/><br/>For example if the Blockers example using a t distribution for the random effects is compiled this option will open a window containing<br/><br/>         <img alt="[infomenu3]" src="infomenu3.bmp"/><br/><br/><br/>The variable names prefixed with aux. are for auxilliary variables introduced when the t distribution were re-written as a scale mixture of normals. delta.new is a stochastic node put in the model for making predictions, it is forward sampled and therefore has negative depth. It has an auxilliary variable [020FC910H] as a parent which is also forward sampled hence the depth of delta.new is -2.<br/><br/><h5 id="Model">Model</h5>Opens a new window containing the <em>BUGS</em> language code describing the currently checked model. The model can be specified in the <em>BUGS</em> language or as a <em>Doodle</em>. Any comments in the original <em>BUGS</em> language description will be lost. The <em>BUGS</em> language code will be formatted in a standardized form.<br/><br/>For example if the model described by this Doodle is checked the Model option will open a windows containing the BUGS language code below<br/><img alt="[infomenu4]" src="infomenu4.bmp"/><br/><br/><font color="#000100" face="Arial" size="1">                  <img alt="[infomenu5]" src="infomenu5.bmp"/></font><br/><br/><br/><h5 id="Latexprinting">Latex</h5><br/>Opens a new window containing Latex code describing the currently checked model. The model can be specified in the <em>BUGS</em> language or as a <em>Doodle</em>. Any comments in the original <em>BUGS</em> language description will be lost. <br/><br/>For example, if the following model is checked then the latex option will produce:<br/><br/><font color="#000100" face="Courier New" size="1">               model {<br/>                  for (i in 1:K) {<br/>                     for (j in 1:n) {<br/>                        Y[i, j] ~ dnorm(eta[i, j], tau.C)<br/>                        eta[i, j] &lt;- phi[i, 1] / (1 + phi[i, 2] * exp(phi[i, 3] * x[j]))<br/>                     }<br/>                     phi[i, 1] &lt;- exp(theta[i, 1])<br/>                     phi[i, 2] &lt;- exp(theta[i, 2]) - 1<br/>                     phi[i, 3] &lt;- -exp(theta[i, 3])<br/>                     for (k in 1:3) {<br/>                        theta[i, k] ~ dnorm(mu[k], tau[k])<br/>                     }<br/>                  }<br/>                  tau.C ~ dgamma(1.0E-3, 1.0E-3)<br/>                  sigma.C &lt;- 1 / sqrt(tau.C)<br/>                  varC &lt;- 1 / tau.C<br/>                  for (k in 1:3) {<br/>                     mu[k] ~ dnorm(0, 1.0E-4)<br/>                     tau[k] ~ dgamma(1.0E-3, 1.0E-3)<br/>                     sigma[k] &lt;- 1 / sqrt(tau[k])<br/>                  }<br/>               }<br/></font><br/>            <img alt="[infomenu6]" src="infomenu6.bmp"/><br/>            Processing the latex code gives<font color="#000100" face="Arial" size="2"><img alt="[infomenu7]" src="infomenu7.bmp"/><br/>         </font><br/><br/><h5 id="Data">Data</h5><br/>This option displays all the variables in the model that are data as one Splus list object. Only nodes that are defined as data in data files are included: that is nodes that are logical functions of other data nodes are omitted. For the Seeds model the following window is produced, note that x12 although data in the model is omitted.<br/><br/>         <img alt="[infomenu8]" src="infomenu8.bmp"/><br/><br/><h5 id="State">State</h5><br/><br/>This option opens a window for each chain in the MCMC simulation showing the current values of the stochastic variable. For the Seeds example after 1000 updates the following output is produced<br/><br/>         <img alt="[infomenu9]" src="infomenu9.bmp"/><br/>         <br/><br/><h5 id="Metrics">Metrics</h5>This option opens a window which gives some information about the size and complexity of the compiled graphical model. For the Seeds example the following output is produced<br/><br/>         <img alt="[infomenu10]" src="infomenu10.bmp"/><br/>         <br/><br/><h5 id="NodeInfo">Node info</h5><font color="#000100" face="Arial" size="2">         <img alt="[infomenu11]" src="infomenu11.bmp"/><br/><br/></font>This dialog box allows information about particular nodes in the model to be obtained. The model must be compiled before this dialog can be used. <br/><br/><strong><em>node:</em></strong> the name of the node for which information is required should be typed here or selected from the drop down list.<br/><br/><strong><em>values:</em></strong> displays the current value of the node (for each chain if not data).<br/><br/><strong><em>sampler:</em></strong> displays the type of updater used to sample from the node (if appropriate).<br/><br/><strong><em>type:</em></strong> displays the type used to represent the node.<br/><br/>As an example of using this dialog compile the Seeds model and then type the node name alpha12 into the node field.<br/><br/>Clicking the value button opens a window displaying<br/><br/>         <img alt="[infomenu12]" src="infomenu12.bmp"/><br/>         <br/>The model has been compiled with one chain and the current value of the alpha12 variable is 0.0<br/><br/>Clicking on the sampler button opens a window displaying<br/><br/>         <img alt="[infomenu13]" src="infomenu13.bmp"/><br/>         <br/>The variable alpha12 has an associated updater using the UpdaterGLM.UpdaterLogit algorithm. This is a block updater, the other members of the block are shown in brackets, size is the number of components in the block and depth is the topological depth of the alpha12 variable in the graphical model. More detailed information about the updater can be gained by clicking on the blue diamond (see the blue diamond section in the developer manual). If the variable in the node field does not have an associated updater then no window will be opened.<br/><br/>Clicking on the type button opens a window displaying<br/><br/>         <img alt="[infomenu14]" src="infomenu14.bmp"/><br/>         <br/>The alpha12 variable in the model is represented by a node of type dnorm. More detailed information about the node can be gained by clicking on the blue diamond (see the blue diamond section in the developer manual).<br/><br/><h5 id="ShowDistribution">Show Distribution</h5><br/><br/>This option shows how the simulation would be split between multiple core for a given number of MCMC chains and a given number of cores. The number of chains and cores is specified in the model specification dialog and the model must be compiled. For the Seeds example with a single chain and two cores the following output is produced<br/><br/>         <img alt="[infomenu15]" src="infomenu15.bmp"/><br/><br/><h5 id="ShowDeviance">Show Deviance Dist</h5><br/><br/>This option shows how the calculation of deviance is split between cores when multiple cores are used in the simulation. Deviance consists of a sum of terms for each data node in the graphical model. The terms which are calculated on each core are listed. For the Seeds example the following output is produced<br/><br/>         <img alt="[infomenu16]" src="infomenu16.bmp"/><br/><br/>Note if the graphical model is large with lots of data this option can produce a huge amount of out put.<br/><br/><br/><h5 id="DistributedGraph">Distributed graph...</h5><br/>This option shows how the nodes are distributed across cores, and provides links that help with debugging.<br/><br/><h5 id="DistributionInfo">Distribution Info</h5><br/>This option provides information about the worker program created to run MCMC simulation for a particular graphical model on multiple cores. For the Inhaler example running two chains on four cores produces the following output<br/><br/>         <img alt="[infomenu17]" src="infomenu17.bmp"/><br/><br/><h5 id="Modules">Modules</h5>Displays all the modules (software components similar to dynamic link libraries) in use. A typical window produced by this option would look like<br/><br/><img alt="[infomenu18]" src="infomenu18.bmp"/><br/><br/>The modules are arranged in a directed acyclic graph where Clients gives the number of children each module has. Version is the current version of the module, Maintainer is the person who maintains the model (some times this is unknown), Compiled was the date when the module was compiled and Loaded was the time at which the module was loaded. Note that the software can load new modules as it runs as required. <br/><br/><h5 id="Memory">Memory</h5>         <br/>This option displays how much memory the software is using. It is displayed at the bottom left of the screen.
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#GeneralProperties">General properties</a></li><li><a href="#OpenLog">Open Log</a></li><li><a href="#ClearLog">Clear Log</a></li><li><a href="#Uninitnodes">Uninitialized nodes</a></li><li><a href="#Updatersbyname">Updaters by name</a></li><li><a href="#Updatersbydepth">Updaters by depth</a></li><li><a href="#Model">Model</a></li><li><a href="#Latexprinting">Latex</a></li><li><a href="#Data">Data</a></li><li><a href="#State">State</a></li><li><a href="#Metrics">Metrics</a></li><li><a href="#NodeInfo">Node info...</a></li><li><a href="#ShowDistribution">Show Distribution</a></li><li><a href="#ShowDeviance">Show Deviance Dist</a></li><li><a href="#DistributedGraph">Distributed graph...</a></li><li><a href="#DistributionInfo">Distribution Info</a></li><li><a href="#Modules">Modules</a></li><li><a href="#Memory">Memory</a></li></ul></div></div></div></div></body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>ToolsMenu</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse show" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li>Tools</li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4>Tools Menu</h4><h5 id="GeneralProperties">General properties</h5>The commands in this menu provide various miscelaneous tools.<br/><br/><h5 id="DocumentSize">Document Size</h5><font color="#0000FF" face="Arial" size="3"><br/><br/>         <img alt="[toolsmenu1]" src="toolsmenu1.bmp"/><br/>         <br/>         <br/></font><h5 id="InsertOLE">Insert OLE Object</h5>This command opens a modal dialog box allowing an OLE object to be inserted into a document at the caret position.<br/><font color="#0000FF" face="Arial" size="3"><br/>         <img alt="[toolsmenu2]" src="toolsmenu2.bmp"/><br/>   <br/>         </font><h5 id="InsertHeader">Insert Header</h5>This command inserts a header into the document which becomes visible when the document is printed.<br/><br/><h5 id="CreateLink">Insert Create Link</h5>This command turns the highlighted text into a hyper text link if possible. The highlighted text must have a form like &lt;Dialog.Bleep&gt;<font color="#0000FF" face="Arial" size="3">Bleep</font>&lt;&gt; which gives the following link <img alt="[toolsmenu3]" src="toolsmenu3.bmp"/>. <br/><br/>Typical links are <br/><br/>&lt;StdLinks.ShowTarget('Contents')&gt;<font color="#0000FF" face="Arial" size="3">top</font>&lt;&gt; <br/>&lt;StdCmds.OpenBrowser('Manuals/ToolsMenu', 'Tools Menu')&gt;<font color="#0000FF" face="Arial" size="3">Tools Menu</font>&lt;&gt;<br/><br/>If the 'Show Marks' command from the Edit menu is choosen links show up as angled hollow arrows.To return the link into text form hold the control key down and click into one of these arrows.<br/><br/><br/><h5 id="CreateTarget">Create Target</h5>This command turns the highlighted text into a target that can be jumped to. The highlighted text should have a form like &lt;ExpandAll&gt;Expand All&lt;&gt;.<br/><br/>If the 'Show Marks' command from the Edit menu is choosen links show up as hollow circles.To return the target into text form hold the control key down and click into one of these circles.<br/><br/><h5 id="CreateFold">Create Fold</h5>This command turns the highlighted text into a fold enclosed between two arrows containg a minus signs. Clicking on either of the arrows will close the fold (the arrows now contain a plus sign), the caret is then placed between the arrows and text can be typed into the closed fold. Clicking on an arrow will open the fold again.<br/><br/><h5 id="ExpandAll">Expand All</h5>This command opens all the closed folds in the document.<br/><br/><br/><h5 id="CollapseAll">Collapse All</h5>This command closes all the open folds in the document.<br/><br/><br/><h5 id="Fold">Fold...</h5><br/><br/>         <img alt="[toolsmenu4]" src="toolsmenu4.bmp"/><br/>   <br/>         <br/><h5 id="EncodeDocument">Encode Document</h5>This command encodes a document into ascii characters. The encoded version of the document is opened in a new window. The encoded document can be sent by email.<br/><br/><br/><h5 id="EncodeSelection">Encode Selection</h5>This command encodes a highlighted section of a document into ascii characters. The encoded section of the document is opened in a new window.<br/><br/><br/><h5 id="EncodeFile">Encode File...</h5>This command encodes a file into ascii characters. The encoded version of the file is opened in a new window. A standard file open dialig pops up for choosing which file to encode<br/><br/><br/><h5 id="EncodeFileList">Encode File List</h5>This command encodes a list of files into a document containg only ascii charcters. The document is opened in a new window. The list of files to be enco´ded must be highlighted in the document in the top window.<br/><br/><br/><h5 id="Decode">Decode</h5>This command decodes an encoded document, file or list of files.<br/><br/><h5 id="AboutEncodedMaterial">About Encoded Material</h5>This command gives information about what is encoded.
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5><ul><li><a href="#GeneralProperties">General properties</a></li><li><a href="#DocumentSize">Document Size...</a></li><li><a href="#InsertOLE">Insert OLE Object...</a></li><li><a href="#InsertHeader">Insert Header</a></li><li><a href="#CreateLink">Create Link</a></li><li><a href="#CreateTarget">Create Target</a></li><li><a href="#CreateFold">Create Fold</a></li><li><a href="#ExpandAll">Expand All</a></li><li><a href="#CollapseAll">Collapse All</a></li><li><a href="#Fold">Fold...</a></li><li><a href="#EncodeDocument">Encode Document</a></li><li><a href="#EncodeSelection">Encode Selection</a></li><li><a href="#EncodeFile">Encode File...</a></li><li><a href="#EncodeFileList">Encode File List</a></li><li><a href="#Decode">Decode</a></li><li><a href="#AboutEncodedMaterial">About Encoded Material</a></li></ul></div></div></div></div></body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Html 1.0 Strict//EN" "http://www.w3.org/TR/Html1/DTD/strict.dtd">
+<html><head>
+<title>Make</title>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+<a class="navbar-brand" href="/"><img src="/images/logo.svg"/>MultiBUGS</a>
+<div class="collapse navbar" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/download">Download</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/documentation/latest/">Documentation <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/examples/latest/">Examples</a>
+</li>
+</ul>
+</div>
+</nav><div class="container-fluid"><div class="row main"><div class="col-md-3 col-lg-2 col-xl-3"><div class="sticky-top stickymenu" id="contents">
+<button aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle docs navigation" class="btn btn-link d-md-none ml-3 mr-3 mt-3 collapsed mb-toggler" data-target="#navbarContents" data-toggle="collapse" type="button">
+<span class="mb-toggler-icon mr-1"></span>
+    Contents
+  </button>
+
+<h5 class="d-none d-md-block">Contents</h5>
+<div class="collapse mb-links" id="navbarContents">
+<ul class="list-unstyled">
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#basics">Basics</a>
+<ul class="collapse" id="basics">
+<li><a href="/documentation/latest/Introduction.html">Introduction</a></li>
+<li><a href="/documentation/latest/Tutorial.html">Tutorial</a></li>
+<li><a href="/documentation/latest/CompoundDocuments.html">Compound documents</a></li>
+<li><a href="/documentation/latest/Graphics.html">Graphics</a></li>
+<li><a href="/documentation/latest/DoodleBUGS.html">DoodleBUGS</a></li>
+<li><a href="/documentation/latest/Scripts.html">Scripts</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#language">BUGS language</a>
+<ul class="collapse" id="language">
+<li><a href="/documentation/latest/ModelSpecification.html">Model specification</a></li>
+<li><a href="/documentation/latest/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/Functions.html">Functions and functionals</a></li>
+<li><a href="/documentation/latest/Tricks.html">Advanced uses</a></li>
+<li><a href="/documentation/latest/TipsTroubleshooting.html">Tips and troubleshooting</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#menus">Menus</a>
+<ul class="collapse" id="menus">
+<li><a href="/documentation/latest/FileMenu.html">File</a></li>
+<li><a href="/documentation/latest/EditMenu.html">Edit</a></li>
+<li><a href="/documentation/latest/AttributesMenu.html">Attributes</a></li>
+<li><a href="/documentation/latest/ToolsMenu.html">Tools</a></li>
+<li><a href="/documentation/latest/TextMenu.html">Text</a></li>
+<li><a href="/documentation/latest/InfoMenu.html">Info</a></li>
+<li><a href="/documentation/latest/ModelMenu.html">Model</a></li>
+<li><a href="/documentation/latest/InferenceMenu.html">Inference</a></li>
+<li><a href="/documentation/latest/DoodleMenu.html">Doodle</a></li>
+<li><a href="/documentation/latest/MapMenu.html">Map</a></li>
+<li><a href="/documentation/latest/ExamplesMenu.html">Examples</a></li>
+<li><a href="/documentation/latest/ManualsMenu.html">Manuals</a></li>
+<li><a href="/documentation/latest/HelpMenu.html">Help</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#geobugs">GeoBUGS</a>
+<ul class="collapse" id="geobugs">
+<li><a href="/documentation/latest/spatial/Manual.html">Introduction</a></li>
+<li><a href="/documentation/latest/spatial/ImportExport.html">Importing/exporting maps</a></li>
+<li><a href="/documentation/latest/spatial/AdjacencyMatrices.html">Adjacency matrices</a></li>
+<li><a href="/documentation/latest/spatial/Maps.html">Creating maps</a></li>
+<li><a href="/documentation/latest/spatial/SpatialDistributions.html">Spatial distributions</a></li>
+<li><a href="/documentation/latest/spatial/TemporalDistributions.html">Temporal distributions</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#reliability">ReliaBUGS</a>
+<ul class="collapse" id="reliability">
+<li><a href="/documentation/latest/reliability/Contents.html">Introduction</a></li>
+<li><a href="/documentation/latest/reliability/Analysis.html">Basics</a></li>
+<li><a href="/documentation/latest/reliability/Distributions.html">Distributions</a></li>
+<li><a href="/documentation/latest/reliability/Functions.html">Logical functions</a></li>
+<li><a href="/documentation/latest/reliability/References.html">References</a></li>
+</ul>
+</li>
+<li class="nav-item"><a aria-expanded="true" class="dropdown-toggle nav-link" data-toggle="collapse" href="#developer">Developer</a>
+<ul class="collapse" id="developer">
+<li><a href="/documentation/latest/developer/Manual.html">Contents</a></li>
+<li><a href="/documentation/latest/developer/Tools.html">Setting up the development tools</a></li>
+<li><a href="/documentation/latest/developer/Compiling.html">Compiling the Source Code</a></li>
+<li><a href="/documentation/latest/developer/Initializing.html">Initializing OpenBUGS</a></li>
+<li><a href="/documentation/latest/developer/WritingBUGSExtensions.html">Writing OpenBUGS extensions</a></li>
+<li><a href="/documentation/latest/developer/SamplingAlgorithms.html">Sampling algorithms</a></li>
+<li><a href="/documentation/latest/developer/BlueDiamonds.html">Blue diamonds</a></li>
+<li><a href="/documentation/latest/developer/SoftDocu.html">Bugs subsystems</a></li>
+<li><a href="/documentation/latest/developer/Distributing.html">Distributing OpenBUGS</a></li>
+</ul>
+</li>
+<!--<li><a href="/documentation/latest/References.html">References</a>-->
+</ul>
+</div>
+</div></div><div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+<p>
+<h4> Compiling OpenBUGS</h4>This document contains a list of source code modules which constitute the OpenBUGS software.<br/><br/>To produce an executable version of OpenBUGS the compiled form of some of these modules must be linked with certain compiled modules of Oberonmicrosystems BlackBox software. See the Linking document for details.<br/><br/>List of OpenBUGS modules:<br/><br/><img alt="[make1]" src="make1.bmp"/>DevCompiler.CompileThis<br/><br/>HostMenus<br/><br/>Environment("OS":"Windows") MPI MPImaster MPIworker<br/>MPImslib MPImsimp <br/>MPIlibmpiso12 MPIimplibmpiso12<br/>MPIlibmpichso12 MPIimplibmpichso12 <br/>MPIlibmpichso0 MPIimplibmpichso0<br/>MPIlibmpichso10 MPIimplibmpichso10<br/><br/>MathSort MathFunc MathMatrix MathSparsematrix MathTaucsLib MathTaucsImp<br/>MathCumulative MathRandnum MathODE MathFunctional MathRungeKutta45 MathAESolver MathIntegrate MathTT800 MathDiagmatrix MathBGR MathSmooth MathJacobi<br/><br/>BugsMsg BugsRegistry BugsMappers BugsFiles<br/><br/>BugsInterpreter BugsScripts BugsScripting<br/><br/>BugsRandnum<br/><br/>GraphRules GraphNodes GraphGrammar GraphLogical GraphStochastic GraphScalar GraphLinkfunc GraphKernel GraphVector GraphWeight GraphUnivariate GraphMultivariate GraphConjugateUV GraphConjugateMV GraphChain GraphMRF GraphUVMRF GraphUVGMRF GraphMVGMRF GraphVD GraphVDDescrete GraphVDContinuous GraphFunctional GraphMessages GraphResources GraphJacobi<br/><br/>GraphDummy GraphDummyMV GraphSentinel GraphDeviance<br/><br/>MonitorMonitors MonitorSamples MonitorSamplesDisc MonitorSummary MonitorDeviance MonitorPlugin MonitorRanks MonitorModel<br/><br/>UpdaterUpdaters UpdaterMethods UpdaterUnivariate UpdaterMultivariate UpdaterContinuous<br/>UpdaterConjugateMV UpdaterMetropolisUV UpdaterMetropolisMV UpdaterRandWalkUV UpdaterAuxillary UpdaterEmpty UpdaterActions UpdaterMessages UpdaterExternal UpdaterResources<br/><br/>GraphConstant GraphMixture GraphMAP<br/><br/>DeviancePlugin<br/><br/>BugsVersion BugsNames BugsIndex BugsVariables BugsParser BugsEvaluate BugsCodegen BugsOptimize BugsCPWrite BugsCPCompiler BugsNodes BugsData BugsGraph BugsPrettyprinter BugsLatexprinter BugsSerialize <br/><br/>UpdaterHMC<br/><br/>BugsInterface BugsRobjects BugsTraphandler1 BugsExternal BugsMAP BugsMessages BugsResources BugsPartition BugsParallel BugsComponents BugsInfo <br/><br/>BugsRectData BugsSplusData<br/><br/>SamplesMonitors SamplesIndex SamplesStatistics SamplesInterface SamplesFormatted<br/>SamplesMessages SamplesResources<br/><br/>SummaryMonitors SummaryIndex SummaryInterface SummaryFormatted SummaryMessages SummaryResources<br/><br/>RanksMonitors RanksIndex RanksInterface RanksFormatted<br/>RanksMessages RanksResources<br/><br/>ModelsMonitors ModelsIndex ModelsInterface ModelsFormatted<br/>ModelsMessages ModelsResources<br/><br/>DevianceMonitors DeviancePluginS DevianceParents<br/>DevianceIndex DevianceInterface DevianceFormatted DevianceMessages DevianceResources<br/><br/>CorrelInterface CorrelFormatted CorrelMessages CorrelResources<br/><br/>BugsMaster<br/><br/>GraphPiecewise GraphODEmath GraphODElang GraphODEBlockL GraphODEBlockM<br/><br/>GraphAESolver GraphCloglog GraphCut GraphHalf GraphDensity GraphGammap GraphInprod GraphIntegrate GraphKepler GraphLog GraphLogdet GraphLogit GraphMapped GraphProbit GraphProduct GraphRanks GraphSumation GraphTable GraphPValue GraphReplicate GraphPi GraphValDiff<br/><br/>GraphEigenvals GraphInverse GraphItermap GraphODElangRK45 GraphODEBlockLRK45 <br/>GraphStick<br/><br/>GraphBern GraphBinomial GraphCat GraphCat2 GraphFounder GraphGeometric GraphHypergeometric GraphMendelian GraphNegbin GraphPoisson GraphRecessive GraphZipf<br/><br/>GraphMultinom<br/><br/>GraphBeta GraphChisqr GraphDbexp GraphExp GraphF GraphFlat GraphGeneric GraphGEV GraphGPD GraphGamma GraphGengamma GraphHalfT GraphHazard GraphWeibullHazard GraphLogistic GraphLognorm GraphNormal GraphPriorNP GraphPareto GraphPolygene GraphStable GraphT GraphTrapezium GraphTriangle GraphUniform GraphWeibull GraphWeibullShifted<br/><br/>GraphDirichlet GraphGPprior GraphMVNormal GraphMVT GraphRENormal GraphRandwalk GraphSample GraphStochtrend GraphWishart GraphFlexWishart<br/><br/>GraphScalarT GraphVectorT GraphUnivariateT GraphScalartemp1 GraphVectortemp1<br/>GraphUnivariatetemp1<br/><br/>GraphCoSelection GraphSpline GraphSplinecon GraphSplinescalar<br/><br/>UpdaterAM UpdaterKernel UpdaterDE UpdaterSlicebase<br/><br/>UpdaterForward<br/><br/>UpdaterCatagorical UpdaterDescreteSlice UpdaterMetbinomial <br/><br/>UpdaterICM <br/><br/>UpdaterBeta UpdaterGamma UpdaterGriddy UpdaterMetover UpdaterMetnormal UpdaterNaivemet UpdaterNormal UpdaterPareto UpdaterPoisson UpdaterRandEffect UpdaterRejection UpdaterSCAAR UpdaterSCDE UpdaterSDScale UpdaterSlice UpdaterSlicegamma UpdaterStage1 UpdaterStage1P UpdaterVD <br/><br/>UpdaterAMblock UpdaterKernelblock UpdaterDEblock UpdaterDelayedDirectional1D UpdaterDirichlet UpdaterElliptical UpdaterEllipticalMVN UpdaterEllipticalD UpdaterGLM UpdaterMRFConstrain UpdaterGMRF UpdaterGMRFess UpdaterMAPproposal UpdaterMultinomial UpdaterMVNormal UpdaterMVNLinear UpdaterStage1M UpdaterVDMVN UpdaterVDMVNContinuous UpdaterVDMVNDescrete UpdaterWishart<br/><br/>UpdaterUnivariateT UpdaterMultivariateT<br/><br/>SpatialExternal SpatialResources SpatialUVCAR<br/>SpatialBound SpatialCARl1 SpatialCARNormal SpatialCARProper SpatialDiscKrig SpatialExpKrig SpatialMaternKrig SpatialPoissconv SpatialMVCAR<br/><br/>ReliabilityBS ReliabilityBurrXII ReliabilityBurrX ReliabilityExpPower ReliabilityExpoWeibull ReliabilityExtExp ReliabilityExtendedWeibull ReliabilityFlexibleWeibull ReliabilityGenExp ReliabilityGPWeibull ReliabilityGompertz ReliabilityGumbel ReliabilityInvGauss ReliabilityInvWeibull ReliabilityLinearFailure ReliabilityLogisticExp ReliabilityLogLogistic ReliabilityLogWeibull ReliabilityModifiedWeibull ReliabilitySystem ReliabilityWrapper ReliabilityExternal ReliabilityResources<br/><br/>PharmacoInputs PharmacoModel PharmacoExternal PharmacoResources<br/><br/>PharmacoPKIVbol1 PharmacoPKIVbol2 PharmacoPKIVbol3 PharmacoPKIVinf1 PharmacoPKIVinf2 PharmacoPKIVinf3 PharmacoPKFO1 PharmacoPKFO2<br/>PharmacoPKFO3 PharmacoPKZO1 PharmacoPKZO2 PharmacoPKFOlag1<br/>PharmacoPKFOlag2 PharmacoPKZOlag1 PharmacoPKZOlag2 PharmacoPKIVbol1ss<br/>PharmacoPKIVbol2ss PharmacoPKIVbol3ss PharmacoPKIVinf1ss PharmacoPKIVinf2ss<br/>PharmacoPKIVinf3ss PharmacoPKFO1ss PharmacoPKFO2ss PharmacoPKZO1ss<br/>PharmacoPKZO2ss PharmacoPKFOlag1ss PharmacoPKFOlag2ss PharmacoPKZOlag1ss<br/>PharmacoPKZOlag2ss PharmacoSum<br/><br/>PKBugsScanners PKBugsNames PKBugsData PKBugsParse PKBugsCovts<br/>PKBugsPriors PKBugsNodes PKBugsTree PKBugsMessages PKBugsResources<br/><br/>DiffExternal DiffResources<br/><br/>DiffLotkaVolterra DiffFiveCompModel DiffExponential DiffChangePoints DiffHPS_V2_FB<br/><br/>MapsMessages MapsResources<br/><br/>BugsDialog<br/><br/>BugsStartup Init<br/><br/>UpdaterSettings<br/><br/>DevDebug<br/><br/>BugsCmds BugsBatch <span class="button">BugsConfig</span>("OS":"Windows")<span class="button"> </span><br/><br/>DoodleNodes DoodlePlates DoodleModels DoodleMenus DoodleDialog DoodleViews DoodleParser DoodleCmds DoodleMessages DoodleResources<br/><br/>BugsInfodebug BugsDocu BugsSearch<br/><br/>PlotsAxis("OS":"Windows")<span class="button"> </span>PlotsViews PlotsDialog PlotsNomaxis PlotsStdaxis PlotsEmptyaxis<br/><br/>SamplesViews SamplesPlots SamplesCmds<br/>SamplesCorrelat SamplesDensity SamplesDiagnostics SamplesHistory SamplesQuantiles SamplesTrace SamplesJumpdist SamplesAccept<br/><br/>SummaryCmds<br/><br/>RanksDensity RanksCmds<br/><br/>ModelsCmds<br/><br/>DevianceCmds<br/><br/>CompareViews CompareBoxplot CompareCaterpillar CompareModelFit CompareScatter CompareDenstrip CompareCmds<br/><br/>CorrelBivariate CorrelMatrix CorrelPlots CorrelCmds<br/><br/>MapsMap MapsImporter MapsIndex MapsAdjacency MapsViews MapsViews1 MapsCmds MapsArcinfo MapsEpimap MapsSplus<br/><br/>PKBugsCmds<br/><br/>StdCmds1<br/><br/>BugsC<br/><br/>BugsPackage<br/><br/>MathSeeds<br/><br/>ParallelFiles ParallelRandnum ParallelActions ParallelHMC ParallelWorker ParallelDebug<br/><br/>TestScript<br/><br/><br/>
+
+</p>
+
+
+</div><div class="d-none d-lg-block col-lg-3 col-xl-3" id="onthispage"><div class="sticky-top stickymenu"><h5>On this page</h5></div></div></div></div></body></html>
